@@ -1,5 +1,3 @@
-"use client";
-
 export default function Vendas() {
   return (
     <div className="p-4">
