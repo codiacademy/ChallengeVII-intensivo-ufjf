@@ -4,10 +4,7 @@ export default function RootLayout({ children }) {
       <header className="bg-[#222] text-[#FFF] py-4">
         <h2 className="text-center">Codi Cash</h2>
       </header>
-
-      {/* ✅ Conteúdo renderizado pelas rotas */}
       {children}
-
       <footer className="absolute bottom-0 w-full bg-[#222] text-[#FFF] py-4">
         <h2 className="text-center">Rodapé</h2>
       </footer>

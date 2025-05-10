@@ -1,5 +1,3 @@
-"use client";
-
 export default function Despesas() {
   return (
     <div className="p-4">
