@@ -1,8 +1,6 @@
+"use client";
+import Painel from "@/components/telas/Painel";
 
-export default function Overview() {
-  return (
-    <h1>
-      Overview
-    </h1>
-  );
+export default function Page() {
+  return <Painel />;
 }
