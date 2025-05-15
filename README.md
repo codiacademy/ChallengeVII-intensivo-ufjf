@@ -87,4 +87,3 @@ Vocês serão responsáveis por desenvolver **apenas o frontend** da aplicação
 - Apresentação final
 
 ---
-
