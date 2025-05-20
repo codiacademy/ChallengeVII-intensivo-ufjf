@@ -1,27 +1,13 @@
 "use client";
+import Link from "next/link";
 
 export default function SideBar({ onSelect }) {
   return (
-    <aside className="w-64 bg-gray-100 p-4 shadow-md h-screen">
+    <aside className="w-64 bg-gray-100 p-4 shadow-md">
       <nav className="space-y-4">
-        <button
-          onClick={() => onSelect('dashboard')}
-          className="block w-full text-left hover:bg-gray-200 p-2 rounded"
-        >
-          Dashboard
-        </button>
-        <button
-          onClick={() => onSelect('vendas')}
-          className="block w-full text-left hover:bg-gray-200 p-2 rounded"
-        >
-          Vendas
-        </button>
-        <button
-          onClick={() => onSelect('despesas')}
-          className="block w-full text-left hover:bg-gray-200 p-2 rounded"
-        >
-          Despesas
-        </button>
+        <Link href="/dashboard">Dashboard</Link> <br />
+        <Link href="/vendas">Vendas</Link>
+        
       </nav>
     </aside>
   );
