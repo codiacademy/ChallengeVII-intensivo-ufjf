@@ -59,7 +59,7 @@ export default function Vendas() {
     <div className="overflow-x-auto p-6">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-2xl font-bold">Vendas</h1>
-        <button className="btn btn-primary">Nova Venda</button>
+        <button className="btn btn-primary shadow-xl/50 shadow-purple-300">Nova Venda</button>
       </div>
 
       <div className="mb-4">
@@ -82,7 +82,7 @@ export default function Vendas() {
           {table.getHeaderGroups().map((headerGroup) => (
             <tr key={headerGroup.id}>
               {headerGroup.headers.map((header) => (
-                <th key={header.id} clas>
+                <th key={header.id}>
                   {flexRender(header.column.columnDef.header, header.getContext())}
                 </th>
               ))}
