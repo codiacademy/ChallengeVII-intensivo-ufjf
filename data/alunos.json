@@ -7,7 +7,7 @@
     "formaPagamento": "Crédito",
     "parcelas": 6,
     "cpf": "123.456.789-00",
-    "dataPagamento": "Rua A, 123",
+    "endereço": "Rua A, 123",
     "dataVenda": "2024-05-20",
     "dataPagamento": "2024-05-22"
   },
