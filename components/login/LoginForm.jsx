@@ -1,7 +1,5 @@
 "use client";
 
-import { singIn } from "next-auth/react";
-
 export default function LoginForm() {
   async function login(e) {
     e.preventDefault();
@@ -10,12 +8,6 @@ export default function LoginForm() {
       email: formData.get("email"),
       password: formData.get("password"),
     }
-
-
-    // Aqui você pode adicionar a lógica de autenticação, como chamar uma API
-    console.log(data.email);
-    console.log(data.password);
-
   }
 
 
@@ -29,7 +21,7 @@ return (
         name="email"
         type="email"
         className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-        placeholder="seuemail@email.com"
+        placeholder="e-mail"
         required
       />
     </div>
