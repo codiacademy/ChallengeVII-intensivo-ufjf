@@ -3,11 +3,19 @@ import Link from "next/link";
 
 export default function SideBar({ onSelect }) {
   return (
-    <aside className="w-64 bg-gray-100 p-4 shadow-md">
+    <aside className="w-64 bg-purple-400 p-4 shadow-md">
       <nav className="space-y-4">
-        <Link href="/dashboard">Dashboard</Link> <br />
-        <Link href="/vendas">Vendas</Link>
-        
+        <ul>
+          <li>
+            <Link href="/dashboard">Dashboard</Link>
+          </li>
+          <li>
+            <Link href="/vendas">Vendas</Link>
+          </li>
+          <li>
+            <Link href="/despesas">Despesas</Link>
+          </li>
+        </ul>
       </nav>
     </aside>
   );
