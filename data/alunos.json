@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1",
+    "aluno": "João Silva",
+    "curso": "React Avançado",
+    "valor": "R$ 1.200,00",
+    "formaPagamento": "Crédito",
+    "parcelas": 6,
+    "cpf": "123.456.789-00",
+    "dataPagamento": "Rua A, 123",
+    "dataVenda": "2024-05-20",
+    "dataPagamento": "2024-05-22"
+  },
+  {
+    "id": "2",
+    "aluno": "Maria Souza",
+    "curso": "Next.js Essencial",
+    "valor": "R$ 900,00",
+    "formaPagamento": "PIX",
+    "parcelas": 1,
+    "cpf": "987.654.321-00",
+    "endereco": "Rua B, 456",
+    "dataVenda": "2024-05-18",
+    "dataPagamento": "2024-05-18"
+  },  {
+    "id": "3",
+    "aluno": "Rafael da Silva",
+    "curso": "Front-end",
+    "valor": "R$ 1900,00",
+    "formaPagamento": "Cartão",
+    "parcelas": 1,
+    "cpf": "987.585.385-00",
+    "endereco": "Rua c, 789",
+    "dataVenda": "2024-07-14",
+    "dataPagamento": "2024-07-14"
+  }
+]
