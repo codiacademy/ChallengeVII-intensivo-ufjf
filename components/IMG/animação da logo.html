@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>CASH completo — com margem suficiente</title>
+  <title>CASH ICON</title>
   <style>
     body {
       background: #eee;
@@ -18,7 +18,7 @@
       width: 900px;
       height: 300px; /* Altura fixa e igual para ambas */
       overflow: hidden;
-      border-radius: 40px;
+      border-radius: 48px;
       cursor: pointer;
     }
 
@@ -35,6 +35,7 @@
       padding-left: 200px; /* ← margem aumentada como solicitado */
       box-sizing: border-box;
       background: white; /* caso a imagem tenha transparência */
+      border-radius: 48px;
     }
 
     /* Ícone fixo à esquerda */
@@ -44,12 +45,14 @@
       height: 100%; /* sempre igual à imagem CASH */
       object-fit: cover;
       z-index: 2;
+      border-radius: 0 48px 48px 0;
     }
 
     /* Animação ao hover */
     .container:hover .cash-img {
       left: 0;
     }
+
   </style>
 </head>
 <body>
