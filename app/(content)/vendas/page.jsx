@@ -11,7 +11,7 @@ export default function Vendas() {
   };
   return (
     <div className="flex flex-col h-full">
-      <header className="shrink-0 p-4 bg-[#e0e5ec]">
+      <header className="shrink-0 p-4 bg-[var(--colors-background)]">
         <ButtonNewSale onAdd={adicionarVenda} />
       </header>
       <Table/>

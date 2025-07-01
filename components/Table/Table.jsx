@@ -9,7 +9,7 @@ export default function Table() {
     );
 
     return (
-        <div className="min-w-full p-5 rounded-[15px] bg-[#e0e5ec]">
+        <div className="min-w-full p-5 rounded-[15px] bg-[var(--colors-background)]">
             <input
                 type="text"
                 placeholder="Filtrar por aluno..."
@@ -17,7 +17,7 @@ export default function Table() {
                 onChange={(e) => setFiltro(e.target.value)}
                 className="p-2 pl-5 w-full max-w-md mb-5
                 text-[#4d4d4d]
-                shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] rounded-[15px]"
+                shadow-[10px_10px_10px_#a3b1c6,-10px_-10px_15px_#ffffff] rounded-[15px]"
             />
             <table className="table-fixed w-full text-left text-[#4d4d4d] border-separate border-spacing-y-2 ">
                 <colgroup>
@@ -28,7 +28,7 @@ export default function Table() {
                     <col className="w-20" />
                     <col className="w-20" />
                 </colgroup>
-                <thead className=" h-[50px] bg-[#e0e5ec] shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] rounded-[15px] sticky top-0 z-10">
+                <thead className=" h-[50px] bg-[var(--colors-background)] shadow-[10px_10px_10px_#a3b1c6,-10px_-10px_15px_#ffffff] rounded-[15px] sticky top-0 z-10">
                     <tr>
                         <th className="text-center rounded-l-2xl">ID</th>
                         <th>Aluno</th>
@@ -38,7 +38,6 @@ export default function Table() {
                         <th className="rounded-r-2xl">Valor</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     {dadosFiltrados.map((venda) => (
                         <tr key={venda.id} className="h-8 hover:shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] rounded-[15px] cursor-default">

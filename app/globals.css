@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @layer utilities {
   @keyframes fadeInUp {
     from {
@@ -14,4 +15,7 @@
   .animate-fade-in {
     animation: fadeInUp 0.5s ease-out forwards;
   }
+}
+:root {
+  --colors-background: #e7dbee;
 }
