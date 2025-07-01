@@ -1,0 +1,187 @@
+        /* Estilos Globais e Layout Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .header, .footer {
+            background-color: #d1a3ff; /* Cor lilás */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        /* Estilos da Sidebar */
+        .sidebar {
+            background-color: #4a4a4a; /* Cinza escuro */
+            color: white;
+            width: 200px;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .sidebar button {
+            display: block;
+            background-color: #6c6c6c; /* Cinza médio */
+            color: white;
+            border: none;
+            padding: 12px 15px;
+            margin: 10px 0;
+            width: 90%;
+            cursor: pointer;
+            text-align: left;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .sidebar button:hover {
+            background-color: #8c8c8c;
+        }
+        .sidebar button.active {
+            background-color: #d1a3ff; /* Destaque para o botão ativo */
+        }
+
+        /* Estilos do Conteúdo Principal */
+        .main-content {
+            flex: 1;
+            padding: 20px;
+            background-color: #fdfdfd;
+            overflow-y: auto;
+        }
+
+        /* Estilos para as seções de conteúdo */
+        .content-section {
+            display: none; /* ESCONDIDO POR PADRÃO! */
+            animation: fadeIn 0.5s ease-in-out; /* Adiciona uma animação suave */
+        }
+        .content-section.active {
+            display: block; /* Visível quando ativo */
+        }
+
+        /* Animação de Fade In */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Estilos para seções internas (mantidos) */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .grid > div {
+            background-color: #d1a3ff;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-size: 0.9em;
+        }
+        .chart, .form, .table {
+            background-color: #d1a3ff;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            color: white;
+        }
+        .chart h2, .form h2, .table h2 {
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        /* Estilos específicos para formulários */
+        .form form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form form input[type="text"],
+        .form form input[type="email"],
+        .form form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+        }
+        .form form button[type="submit"] {
+            background-color: #6c6c6c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .form form button[type="submit"]:hover {
+            background-color: #8c8c8c;
+        }
+
+        /* Estilos específicos para tabelas */
+        .table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .table table th, .table table td {
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 10px;
+            text-align: left;
+        }
+        .table table th {
+            background-color: rgba(0, 0, 0, 0.2);
+            font-weight: bold;
+        }
+        .table table tr:nth-child(even) {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        .table button {
+            background-color: #6c6c6c;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .table button:hover {
+            background-color: #8c8c8c;
+        }
+
+        /* Placeholders para Gráficos */
+        .chart div[style*="height"] {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+            color: rgba(255, 255, 255, 0.7);
+            border: 1px dashed rgba(255, 255, 255, 0.5);
+        }
