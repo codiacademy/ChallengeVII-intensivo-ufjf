@@ -1,5 +1,5 @@
 "use client"
-import vendas from '@/data/vendas';
+import vendas from '@/data/vendasUFJF';
 import { useState } from 'react';
 export default function Table() {
     // Estado para armazenar o filtro
