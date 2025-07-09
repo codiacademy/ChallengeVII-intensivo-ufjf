@@ -79,7 +79,7 @@ export default function GraficoVendas({ periodo }) {
   };
 
   return (
-    <LineChart width={700} height={400} data={periodos[periodo]}>
+    <LineChart width={580} height={400} data={periodos[periodo]}>
       <Line type="monotone" dataKey="vendas" stroke="#8884d8" />
       <XAxis dataKey="name" />
       <YAxis />

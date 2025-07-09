@@ -38,14 +38,17 @@ export default function Dashboard() {
         ))}
       </div>
 
-      <div className="flex flex-wrap gap-4">
-        <div className="rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_0px_10px_#ffffff] bg-[var(--colors-background)] p-5">
+      <div className="border-none flex flex-wrap gap-4 w-fit">
+        <div className="border-none rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_0px_10px_#ffffff] bg-[var(--colors-background)] p-5">
           <GraficoVendas periodo={periodo} />
         </div>
-        <GraficoDePizza />
+        <div className="border-none rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_0px_10px_#ffffff] bg-[var(--colors-background)] p-5">
+          <GraficoDePizza />
+        </div>
       </div>
-
-      <KPIs />
+      <div>
+        <KPIs />
+      </div>
     </div>
   );
 }
