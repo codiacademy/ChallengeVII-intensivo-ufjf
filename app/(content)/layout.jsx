@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="PT-BR">
       <body className="h-screen flex flex-col overflow-hidden">
         <Header />
-        <div className="flex flex-1 overflow-hidden bg-[var(--colors-background)]">
+        <div className="flex flex-1 overflow-hidden bg-white dark:bg-[var(--colors-background)]">
           <SideBar />
           <main className="flex-1 flex-grow overflow-auto rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_0px_10px_#ffffff] bg-[var(--colors-background)]">{children}</main>
         </div>
