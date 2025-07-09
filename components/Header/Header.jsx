@@ -1,8 +1,14 @@
+import UserMenu from "./Menu.jsx";
 export default function Header() {
   return (
-    <header className="shrink-0 bg-[#4b006e] text-[#FFF] py-4">
-      <img src="/CODI-Cash-final-02.png" alt="Logo CODI Cash" className="ml-5" width={120} />
-
+    <header className="w-full flex bg-[var(--roxo)] py-2 h-12 mt-0 " >
+      <div className="left  text-4m text-[#FFF] flex justify-between w-1/2 ml-8">
+        <img src="logo.png" alt="logo" className="w-8 h-8" />
+    
+      </div>
+      <div className="right justify-items-end w-1/2">
+        <UserMenu/>
+      </div>
     </header>
   );
 }

@@ -17,5 +17,9 @@
   }
 }
 :root {
-  --colors-background: #d9cfe4;
+
+  --colors-background: #e7dbee;
+  --roxo: #7e22ce;
+  --cinza: #18181b;
+  --branco: #ffffff;
 }

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 export default function SideBar() {
   const pathname = usePathname();
 
+
   const getButtonClasses = (path) => {
     const base = "block w-full p-2 rounded-[15px] transition-shadow text-center";
     const shadowDefault = "shadow-[10px_10px_10px_#a3b1c6,-10px_-10px_15px_#ffffff]";
