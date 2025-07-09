@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import vendasOriginais from '@/data/vendas';
+import vendasOriginais from '@/data/vendasUFJF';
 import Table from '@/components/Table/Table';
 import ButtonNewSale from '@/components/ButtonNewSale/ButtonNewSale';
 

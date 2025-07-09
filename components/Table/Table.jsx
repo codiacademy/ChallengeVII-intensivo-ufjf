@@ -1,7 +1,7 @@
 "use client"
-import vendas from '@/data/vendas';
+import vendas from '@/data/vendasUFJF';
 import { useState } from 'react';
-import DropdownMenu from '../DropMenu/DropSales';
+
 export default function Table() {
     // Estado para armazenar o filtro
     const [filtro, setFiltro] = useState('');
