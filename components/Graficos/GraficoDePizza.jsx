@@ -14,7 +14,7 @@ export default function MyPieChart() {
   return (
     <div className='bg-transparent'>
 
-    <PieChart width={400} height={400}>
+    <PieChart width={580} height={400}>
       <Pie
         data={data}
         cx="50%"

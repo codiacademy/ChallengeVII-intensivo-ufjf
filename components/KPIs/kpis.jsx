@@ -1,7 +1,7 @@
 
 export default function KPIs() {
   return (
-   <div className="p-2 pl-5 w-full max-w-md mb-5
+   <div className="p-2 pl-5 w-155 mb-5
                 text-[#4d4d4d]
                 shadow-[10px_10px_10px_#a3b1c6,-10px_-10px_15px_#ffffff] rounded-[15px]">
         <h2>Indicadores</h2>
