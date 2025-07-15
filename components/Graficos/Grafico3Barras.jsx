@@ -2,7 +2,7 @@
 import vendas from "@/data/vendasUFJF";
 import { LineChart, Line, XAxis, YAxis } from "recharts";
 
-export default function GraficoVendas({ periodo }) {
+export default function GraficoVendas({periodo}) {
   const hoje = new Date();
 
   const parseValor = (valor) =>
