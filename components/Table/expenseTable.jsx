@@ -1,19 +1,15 @@
 "use client"
-import vendas from '@/data/vendasUFJF';
+import despesas from '@/data/despesas';
 import { useState } from 'react';
-
 export default function Table() {
     // Estado para armazenar o filtro
     const [filtro, setFiltro] = useState('');
-    const dadosFiltrados = vendas.filter((venda) =>
-        venda.aluno.toLowerCase().includes(filtro.toLowerCase()) ||
-        venda.curso.toLowerCase().includes(filtro.toLowerCase()) ||
-        venda.formaPagamento.toLowerCase().includes(filtro.toLowerCase()) ||
-        venda.dataVenda.toLowerCase().includes(filtro.toLowerCase())
-    );
-    const adicionarPagemento = (novoPagamento) =>{
-        vendas.push(novoPagamento);
-    }
+    const dadosFiltrados = despesas.filter((despesa) =>
+        despesa.descricao?.toLowerCase().includes(filtro.toLowerCase()) ||
+        despesa.loja?.toLowerCase().includes(filtro.toLowerCase()) ||
+        despesa.tipo?.toLowerCase().includes(filtro.toLowerCase()) ||
+        despesa.dataPagamento?.toLowerCase().includes(filtro.toLowerCase())
+      );
 
     return (
         <div className="min-w-10 p-5 rounded-[15px] bg-[var(--colors-background)]">
@@ -38,22 +34,22 @@ export default function Table() {
                 <thead className=" h-[50px] bg-[var(--colors-background) ] shadow-[6px_7px_10px_#a3b1c6,-5px_-7px_10px_#ffffff] rounded-[15px] sticky top-0 z-10 ">
                     <tr className="bg-[var(--cinza)]">
                         <th className="text-center rounded-l-2xl">ID</th>
-                        <th>Aluno</th>
-                        <th>Curso</th>
-                        <th>Data</th>
-                        <th>Forma de Pagamento</th>
+                        <th>Descrição</th>
+                        <th>Unidade</th>
+                        <th>Tipo</th>
+                        <th>Data Pagamento</th>
                         <th className="rounded-r-2xl">Valor</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {dadosFiltrados.map((venda) => (
-                        <tr key={venda.id} className="h-8 hover:shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] rounded-[15px] cursor-default">
-                            <td className="text-center">{venda.id}</td>
-                            <td>{venda.aluno}</td>
-                            <td>{venda.curso}</td>
-                            <td>{venda.dataVenda}</td>
-                            <td>{venda.formaPagamento}</td>
-                            <td>{venda.valor}</td>
+                    {dadosFiltrados.map((despesa) => (
+                        <tr key={despesa.id} className="h-8 hover:shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] rounded-[15px] cursor-default">
+                            <td className="text-center">{despesa.id}</td>
+                            <td>{despesa.descricao}</td>
+                            <td>{despesa.loja}</td>
+                            <td>{despesa.tipo}</td>
+                            <td>{despesa.dataPagamento}</td>
+                            <td>{despesa.valor}</td>
                         </tr>
                     ))}
                 </tbody>
