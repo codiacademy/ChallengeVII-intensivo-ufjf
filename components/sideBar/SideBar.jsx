@@ -17,7 +17,7 @@ export default function SideBar() {
   };
 
   return (
-    <aside className="w-64 bg-[var(--colors-background)] p-4 shadow-md">
+    <aside className="w-64 bg-[var(--colors-background)] p-4">
       <nav className="space-y-4">
         <ul className="gap-5 flex flex-col">
           <li>
