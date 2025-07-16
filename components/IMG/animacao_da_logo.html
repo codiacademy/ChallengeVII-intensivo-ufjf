@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>CASH ICON</title>
+  <style>
+    body {
+      background: #eee;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      position: relative;
+      width: 900px;
+      height: 300px; /* Altura fixa e igual para ambas */
+      overflow: hidden;
+      border-radius: 48px;
+      cursor: pointer;
+    }
+
+    /* Imagem 1: CASH desliza da esquerda para a direita */
+    .cash-img {
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: left 2s ease;
+      z-index: 1; /* sempre atrás do ícone */
+      padding-left: 200px; /* ← margem aumentada como solicitado */
+      box-sizing: border-box;
+      background: white; /* caso a imagem tenha transparência */
+      border-radius: 48px;
+    }
+
+    /* Ícone fixo à esquerda */
+    .icon-img {
+      position: relative;
+      width: 300px;
+      height: 100%; /* sempre igual à imagem CASH */
+      object-fit: cover;
+      z-index: 2;
+      border-radius: 0 48px 48px 0;
+    }
+
+    /* Animação ao hover */
+    .container:hover .cash-img {
+      left: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Imagem da palavra CASH -->
+    <img src="cash_roxo.png" alt="CASH" class="cash-img">
+
+    <!-- Ícone fixo à esquerda -->
+    <img src="codico_branco.png" alt="Ícone" class="icon-img">
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+

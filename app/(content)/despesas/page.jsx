@@ -25,7 +25,7 @@ export default function Despesas() {
       <header className="shrink-0 p-4 bg-[var(--colors-background)]">
         <ButtonExpense onAdd={adicionarDespesas} />
       </header>
-      <Table columns={columns} data={despesas} />
+      <Table columns={columns} data={despesas || []} />
     </div>
   );
 }
