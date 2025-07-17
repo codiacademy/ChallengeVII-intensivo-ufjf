@@ -4,7 +4,7 @@ import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { Inter } from "next/font/google"
 
-const inter = Inter({ subsets: ["latin" ] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Codi Cash",
@@ -20,8 +20,10 @@ export default function RootLayout({ children }) {
           <div className="hidden md:flex flex-col w-[250px] bg-[var(--colors-sidebar)]">
             <SideBar />
           </div>
-
-          <main className="flex-1 flex-grow overflow-auto rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_0px_10px_#ffffff] bg-[var(--colors-background)]">{children}</main>
+          <div className="overflow-auto">
+            <main className="m-7 p-3 flex-1 flex-grow rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] bg-[var(--colors-background)]">{children}
+            </main>
+          </div>
         </div>
         <Footer />
       </body>

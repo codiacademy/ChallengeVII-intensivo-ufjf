@@ -1,7 +1,7 @@
 "use client";
 import vendas from "@/data/vendasUFJF";
 import despesas from "@/data/despesasUFJF";
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from "recharts";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 
 export default function GraficoReceitasDespesas({ periodo }) {
   const hoje = new Date();
@@ -113,14 +113,16 @@ export default function GraficoReceitasDespesas({ periodo }) {
   };
 
   return (
-    <LineChart width={580} height={400} data={periodos[periodo]}>
+    <ResponsiveContainer width="100%" height="100%">
+    <LineChart data={periodos[periodo]}>
       <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
-      <XAxis dataKey="name" />
-      <YAxis />
+      <XAxis dataKey="name" tick={{ fontSize: 12 }} />
+      <YAxis tick={{ fontSize: 12 }}/>
       <Tooltip />
       <Line type="monotone" dataKey="vendas" stroke="#8884d8" />
       <Line type="monotone" dataKey="despesas" stroke="#82ca9d" />
     </LineChart>
+    </ResponsiveContainer>
   );
 }
 

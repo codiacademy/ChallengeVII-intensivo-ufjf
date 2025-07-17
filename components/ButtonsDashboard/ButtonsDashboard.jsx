@@ -1,4 +1,4 @@
-
+"use client";
 import { botoes } from "../constants/constBotoes";
 
 export default function ButtonsDashboard({ periodo, setPeriodo }) {

@@ -52,9 +52,7 @@ export default function KPIs() {
   }, []);
 
   return (
-    <div className="p-2 pl-5 w-155 mb-5
-                text-[#4d4d4d]
-                shadow-[10px_10px_10px_#a3b1c6,-10px_-10px_15px_#ffffff] rounded-[15px]">
+    <div className="w-full text-[#4d4d4d]">
       <h2>Indicadores</h2>
       <table className="table-fixed w-full text-left text-[#4d4d4d] border-separate border-spacing-y-2">
         <tbody>
