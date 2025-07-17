@@ -25,14 +25,7 @@ export default function UserMenu() {
                 onClick={() => setOpen(!open)}
                 className="flex items-center gap-2 px-4 py-2 rounded-lg transition"
             >
-                <Image
-                    src="/perfil.jpg"
-                    alt=""
-                    width={24}
-                    height={24}
-                    className="rounded-full bg-white top-0"
-                />
-                {/* Ícone seta */}
+
 
             </button>
 
