@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className="h-screen flex flex-col overflow-hidden">
         <Header />
         <div className="flex flex-1 overflow-hidden bg-[var(--colors-background)]">
-          <div className="hidden md:block">
+          <div className="hidden md:flex flex-col w-[250px] bg-[var(--colors-sidebar)]">
             <SideBar />
           </div>
           <div className="overflow-auto">

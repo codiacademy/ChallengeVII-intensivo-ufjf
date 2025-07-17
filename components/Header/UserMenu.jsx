@@ -19,7 +19,7 @@ export default function UserMenu() {
     }, [])
 
     return (
-        <div className="relative flex" ref={menuRef}>
+        <div className="flex" ref={menuRef}>
             {/* Botão do menu */}
             <button
                 onClick={() => setOpen(!open)}
