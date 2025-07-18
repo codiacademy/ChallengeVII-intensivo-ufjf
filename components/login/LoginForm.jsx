@@ -10,8 +10,8 @@ export default function LoginForm() {
       <div className="container">
 
         <div className="sidebar">
-          <button id="btnDashboard" data-content="dashboard-section" className="active">Dashboard</button>
-          <button id="btnVisualizar" data-content="visualizar-section">Visualizar</button>
+          <button id="btnDashboard" data-content="dashboard-section" >Dashboard</button>
+          <button id="btnVisualizar" data-content="visualizar-section" className="active">Visualizar</button>
           <button id="btnSalvar" data-content="salvar-section">Salvar</button>
           <button id="btnEstatisticas" data-content="estatisticas-section">Estatísticas</button>
           <button id="btnGraficos" data-content="graficos-section">Gráficos</button>
@@ -19,19 +19,19 @@ export default function LoginForm() {
         <div className="main-content">
           <div id="dashboard-section" className="content-section active">
             <div className="grid">
-              <div style="background-color: #a3d1ff;">Resumo Diário</div>
-              <div style="background-color: #a3d1ff;">Tarefas Pendentes</div>
-              <div style="background-color: #a3d1ff;">Notificações</div>
-              <div style="background-color: #a3d1ff;">Eventos Próximos</div>
-              <div style="background-color: #a3d1ff;">Alertas</div>
-              <div style="background-color: #a3d1ff;">Atividade Recente</div>
+              <div style={{ backgroundColor: "#a3d1ff" }}>Resumo Diário</div>
+              <div style={{ backgroundColor: "#a3d1ff" }}>Tarefas Pendentes</div>
+              <div style={{ backgroundColor: "#a3d1ff" }}>Notificações</div>
+              <div style={{ backgroundColor: "#a3d1ff" }}>Eventos Próximos</div>
+              <div style={{ backgroundColor: "#a3d1ff" }}>Alertas</div>
+              <div style={{ backgroundColor: "#a3d1ff" }}>Atividade Recente</div>
             </div>
-            <div className="chart" style="background-color: #a3d1ff; margin-top: 20px;">
+            <div className="chart" style={{ backgroundColor: "#a3d1ff", marginTop: "20px" }}>
               <h2>Dashboard: Comparativo Receita x Despesa</h2>
               <p>Aqui você veria um gráfico de resumo com dados importantes do seu negócio.</p>
-              <div style="height: 180px;">Gráfico de Barras/Pizza</div>
+              <div style={{ height: "180px" }}>Gráfico de Barras/Pizza</div>
             </div>
-            <div className="form" style="background-color: #a3d1ff; margin-top: 20px;">
+            <div className="form" style={{ backgroundColor: "#a3d1ff", marginTop: "20px" }}>
               <h2>Dashboard: Últimas Atividades</h2>
               <ul>
                 <li><p>Registro X atualizado em 15/05/2025</p></li>
@@ -39,7 +39,7 @@ export default function LoginForm() {
                 <li><p>Relatório Z gerado</p></li>
               </ul>
             </div>
-            <div className="table" style="background-color: #a3d1ff; margin-top: 20px;">
+            <div className="table" style={{ backgroundColor: "#a3d1ff", marginTop: "20px" }}>
               <h2>Dashboard: Indicadores Chave</h2>
               <table>
                 <thead>
@@ -66,7 +66,7 @@ export default function LoginForm() {
             </div>
           </div>
           <div id="visualizar-section" className="content-section">
-            <div className="table" style="background-color: #ffb6c1; padding: 20px;">
+            <div className="table" style={{ backgroundColor: "#ffb6c1", padding: "20px" }}>
               <h2>Visualizar: Lista de Registros</h2>
               <p>Aqui você pode ver uma tabela completa com todos os itens, clientes, produtos, etc.</p>
               <table>
@@ -105,17 +105,17 @@ export default function LoginForm() {
                   </tr>
                 </tbody>
               </table>
-              <button style="background-color: #d1a3ff; color: white; border: none; padding: 8px 15px; margin-top: 10px; cursor: pointer; border-radius: 4px;">Adicionar Novo</button>
-              <button style="background-color: #d1a3ff; color: white; border: none; padding: 8px 15px; margin-top: 10px; cursor: pointer; border-radius: 4px;">Filtrar</button>
+              <button style={{ backgroundColor: "#d1a3ff", color: "white", border: "none", padding: "8px 15px", marginTop: "10px", cursor: "pointer", borderRadius: "4px" }}>Adicionar Novo</button>
+              <button style={{ backgroundColor: "#d1a3ff", color: "white", border: "none", padding: "8px 15px", marginTop: "10px", cursor: "pointer", borderRadius: "4px" }}>Filtrar</button>
             </div>
-            <div className="chart" style="background-color: #ffb6c1; margin-top: 20px; padding: 20px;">
+            <div className="chart" style={{backgroundColor: "#ffb6c1", marginTop: "20px", padding: "20px"}}>
               <h2>Visualizar: Detalhes do Item Selecionado</h2>
               <p>Área para exibir detalhes de um registro específico ao selecioná-lo na tabela acima.</p>
-              <div style="height: 150px;">Detalhes do Item</div>
+              <div style={{height: "150px"}}>Detalhes do Item</div>
             </div>
           </div>
           <div id="salvar-section" className="content-section">
-            <div className="form" style="background-color: #c1ffb6; padding: 20px;">
+            <div className="form" style={{backgroundColor: "#c1ffb6", padding: "20px"}}>
               <h2>Salvar: Formulário de Cadastro</h2>
               <form>
 
@@ -135,26 +135,26 @@ export default function LoginForm() {
               </form>
 
             </div>
-            <div className="chart" style="background-color: #c1ffb6; margin-top: 20px; padding: 20px;">
+            <div className="chart" style={{ backgroundColor: "#c1ffb6", marginTop: "20px", padding: "20px" }}>
               <h2>Salvar: Feedback</h2>
               <p>Mensagens de sucesso ou erro aparecerão aqui após tentar salvar os dados.</p>
             </div>
           </div>
           <div id="estatisticas-section" className="content-section">
-            <div className="chart" style="background-color: #ffd7b6; padding: 20px;">
+            <div className="chart" style={{ backgroundColor: "#ffd7b6", padding: "20px" }}>
               <h2>Estatísticas: Vendas Mensais</h2>
               <p>Um gráfico de linha mostrando a evolução das vendas ao longo dos meses.</p>
-              <div style="height: 200px;">Gráfico de Vendas</div>
+              <div style={{ height: "200px" }}>Gráfico de Vendas</div>
             </div>
-            <div className="grid" style="margin-top: 20px;">
-              <div style="background-color: #ffd7b6;">Média de Vendas: R$ 5.000</div>
-              <div style="background-color: #ffd7b6;">Clientes Ativos: 1.200</div>
-              <div style="background-color: #ffd7b6;">Produtos Vendidos: 350</div>
-              <div style="background-color: #ffd7b6;">Taxa de Conversão: 2.5%</div>
-              <div style="background-color: #ffd7b6;">Ticket Médio: R$ 80</div>
-              <div style="background-color: #ffd7b6;">Melhor Mês: Junho</div>
+            <div className="grid" style={{ marginTop: "20px" }}>
+              <div style={{ backgroundColor: "#ffd7b6" }}>Média de Vendas: R$ 5.000</div>
+              <div style={{ backgroundColor: "#ffd7b6" }}>Clientes Ativos: 1.200</div>
+              <div style={{ backgroundColor: "#ffd7b6" }}>Produtos Vendidos: 350</div>
+              <div style={{ backgroundColor: "#ffd7b6" }}>Taxa de Conversão: 2.5%</div>
+              <div style={{ backgroundColor: "#ffd7b6" }}>Ticket Médio: R$ 80</div>
+              <div style={{ backgroundColor: "#ffd7b6" }}>Melhor Mês: Junho</div>
             </div>
-            <div className="table" style="background-color: #ffd7b6; margin-top: 20px; padding: 20px;">
+            <div className="table" style={{ backgroundColor: "#ffd7b6", marginTop: "20px", padding: "20px" }}>
               <h2>Estatísticas: Detalhes de Desempenho</h2>
               <table>
                 <thead>
@@ -185,20 +185,20 @@ export default function LoginForm() {
             </div>
           </div>
           <div id="graficos-section" className="content-section">
-            <div className="chart" style="background-color: #b6d1ff; padding: 20px;">
+            <div className="chart" style={{ backgroundColor: "#b6d1ff", padding: "20px" }}>
               <h2>Gráficos: Distribuição por Categoria</h2>
               <p>Gráfico de barras mostrando a distribuição de itens por diferentes categorias.</p>
-              <div style="height: 250px;">Gráfico de Categorias</div>
+              <div style={{ height: "250px" }}>Gráfico de Categorias</div>
             </div>
-            <div className="chart" style="background-color: #b6d1ff; margin-top: 20px; padding: 20px;">
+            <div className="chart" style={{ backgroundColor: "#b6d1ff", marginTop: "20px", padding: "20px" }}>
               <h2>Gráficos: Comparativo Anual</h2>
               <p>Gráfico de linhas múltiplas comparando o desempenho ao longo de anos diferentes.</p>
-              <div style="height: 250px;">Gráfico Comparativo</div>
+              <div style={{ height: "250px" }}>Gráfico Comparativo</div>
             </div>
-            <div className="chart" style="background-color: #b6d1ff; margin-top: 20px; padding: 20px;">
+            <div className="chart" style={{ backgroundColor: "#b6d1ff", marginTop: "20px", padding: "20px" }}>
               <h2>Gráficos: Tendência de Crescimento</h2>
               <p>Gráfico de área mostrando a tendência de crescimento ao longo do tempo.</p>
-              <div style="height: 250px;">Gráfico de Tendência</div>
+              <div style={{ height: "250px" }}>Gráfico de Tendência</div>
             </div>
           </div>
         </div>

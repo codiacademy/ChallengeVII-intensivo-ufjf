@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import Image from 'next/image'
 
-export default function UserMenu() {
+export default function UserMenu({ onUserMenuClick }) {
     const [open, setOpen] = useState(false)
     const menuRef = useRef(null)
 
@@ -19,10 +19,13 @@ export default function UserMenu() {
     }, [])
 
     return (
-        <div className="flex" ref={menuRef}>
+        <div className="flex w-8 h-8 mr-5 bg-black rounded-full" ref={menuRef}>
             {/* Botão do menu */}
             <button
-                onClick={() => setOpen(!open)}
+                onClick={() => {
+                    setOpen(!open)
+                    onUserMenuClick()
+                }}
                 className="flex items-center gap-2 px-4 py-2 rounded-lg transition"
             >
 
@@ -34,7 +37,7 @@ export default function UserMenu() {
                 <div className="absolute right-0 top-10 mt-2 w-64 bg-[var(--cinza)] rounded-lg shadow-lg p-4 z-50 transition-all">
                     <div className="flex flex-col items-center text-center gap-2">
                         <Image
-                            src="/perfil.jpg"
+                            src="/codigo.png"
                             alt="Foto de perfil"
                             width={64}
                             height={64}
