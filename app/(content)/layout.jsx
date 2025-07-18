@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
             <SideBar />
           </div>
           <div className="w-full overflow-auto">
-            <main className="min-h-11/12 m-7 p-3 flex-1 flex-grow rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] bg-[var(--colors-background)]">{children}
+            <main className="min-h-11/12 m-0 md:m-7 p-0 md:p-3 flex-1 flex-grow rounded-[15px] shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] bg-[var(--colors-background)]">{children}
             </main>
           </div>
         </div>

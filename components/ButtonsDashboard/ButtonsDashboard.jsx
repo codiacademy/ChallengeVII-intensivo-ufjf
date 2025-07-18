@@ -2,10 +2,10 @@
 import { usePeriodo } from "@/components/PeriodoContext";
 
 const botoes = [
-    { label: "Últimas 4 semanas", value: "4semanas" },
-    { label: "Últimos 7 dias", value: "7dias" },
-    { label: "Últimos 12 meses", value: "12meses" },
-    { label: "Últimos 5 anos", value: "5anos" },
+    { label: "4 Semanas", value: "4semanas" },
+    { label: "7 Dias", value: "7dias" },
+    { label: "12 Meses", value: "12meses" },
+    { label: "5 Anos", value: "5anos" },
 ];
 
 export default function ButtonsDashboard() {
@@ -16,22 +16,15 @@ export default function ButtonsDashboard() {
     };
 
     return (
-        <div className="flex mb-4">
+        <div className="flex mb-4 gap-2">
             {botoes.map((btn) => (
                 <button
                     key={btn.value}
                     onClick={() => handleClick(btn.value)}
-                    style={{
-                        marginRight: "0.5rem",
-                        padding: "0.5rem 1rem",
-                        backgroundColor: periodo === btn.value ? "var(--roxo)" : "var(--colors-background)",
-                        color: periodo === btn.value ? "white" : "black",
-                        border: "none",
-                        borderRadius: "15px",
-                        cursor: "pointer",
-                        zIndex: periodo === btn.value ? 10 : 1,
-                    }}
-                    className="shadow-[10px_10px_10px_#a3b1c6,-10px_-10px_15px_#ffffff]"
+                    className={`px-4 py-2 text-sm md:text-xl line-clamp-2 rounded-[15px] cursor-pointer transition-colors duration-200
+                        shadow-[10px_10px_10px_#a3b1c6,-10px_-10px_15px_#ffffff]
+                        ${periodo === btn.value ? 'bg-[var(--roxo)] text-white z-10' : 'bg-[var(--colors-background)] text-black z-1'}
+                    `}
                 >
                     {btn.label}
                 </button>

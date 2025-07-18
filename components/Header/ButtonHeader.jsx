@@ -1,28 +1,11 @@
 'use client'
 
-import { useState, useRef, useEffect } from 'react'
-import SideBar from '../SideBar/SideBar'
-
-export default function UserMenu() {
-    const [open, setOpen] = useState(false)
-    const menuRef = useRef(null)
-
-    // Fecha o menu ao clicar fora
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (menuRef.current && !menuRef.current.contains(event.target)) {
-                setOpen(false)
-            }
-        }
-        document.addEventListener('mousedown', handleClickOutside)
-        return () => document.removeEventListener('mousedown', handleClickOutside)
-    }, [])
-
+export default function ButtonHeader({ onClick }) {
     return (
         <button
             className="h-10  md:hidden flex items-center justify-center p-2 rounded-full text-white"
             aria-label="Abrir menu lateral"
-            onClick={() => setOpen(!open)}
+            onClick={onClick}
             type="button"
         >
             {/* Ícone hambúrguer SVG */}
@@ -34,4 +17,3 @@ export default function UserMenu() {
         </button>
     )
 }
-
