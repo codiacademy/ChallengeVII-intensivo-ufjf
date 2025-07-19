@@ -2,7 +2,7 @@ const despesas = [
   {
     id: 1,
     nome: "luz",
-    valor: 1170,
+    valor: 3323,
     dataVencimento: "05-01-2021",
     dataPagamento: "05-01-2021",
     tipoDespesa: "fixa"
@@ -10,7 +10,7 @@ const despesas = [
   {
     id: 2,
     nome: "água",
-    valor: 352,
+    valor: 596,
     dataVencimento: "08-01-2021",
     dataPagamento: "08-01-2021",
     tipoDespesa: "fixa"
@@ -18,7 +18,7 @@ const despesas = [
   {
     id: 3,
     nome: "internet",
-    valor: 259,
+    valor: 920,
     dataVencimento: "11-01-2021",
     dataPagamento: "11-01-2021",
     tipoDespesa: "fixa"
@@ -26,7 +26,7 @@ const despesas = [
   {
     id: 4,
     nome: "telefone",
-    valor: 158,
+    valor: 260,
     dataVencimento: "14-01-2021",
     dataPagamento: "14-01-2021",
     tipoDespesa: "fixa"
@@ -34,7 +34,7 @@ const despesas = [
   {
     id: 5,
     nome: "aluguel",
-    valor: 3840,
+    valor: 6305,
     dataVencimento: "17-01-2021",
     dataPagamento: "17-01-2021",
     tipoDespesa: "fixa"
@@ -42,7 +42,7 @@ const despesas = [
   {
     id: 6,
     nome: "condomínio",
-    valor: 762,
+    valor: 1490,
     dataVencimento: "20-01-2021",
     dataPagamento: "20-01-2021",
     tipoDespesa: "fixa"
@@ -50,7 +50,7 @@ const despesas = [
   {
     id: 7,
     nome: "serviço de limpeza",
-    valor: 710,
+    valor: 1205,
     dataVencimento: "23-01-2021",
     dataPagamento: "23-01-2021",
     tipoDespesa: "fixa"
@@ -58,7 +58,7 @@ const despesas = [
   {
     id: 8,
     nome: "seguro patrimonial",
-    valor: 258,
+    valor: 547,
     dataVencimento: "26-01-2021",
     dataPagamento: "26-01-2021",
     tipoDespesa: "fixa"
@@ -66,7 +66,7 @@ const despesas = [
   {
     id: 9,
     nome: "licença de antivírus",
-    valor: 98,
+    valor: 2073,
     dataVencimento: "29-01-2021",
     dataPagamento: "29-01-2021",
     tipoDespesa: "fixa"
@@ -74,7 +74,7 @@ const despesas = [
   {
     id: 10,
     nome: "compra de materiais escolares",
-    valor: 1156,
+    valor: 1087,
     dataVencimento: "15-01-2021",
     dataPagamento: "15-01-2021",
     tipoDespesa: "variável"
@@ -82,7 +82,7 @@ const despesas = [
   {
     id: 11,
     nome: "manutenção predial",
-    valor: 1490,
+    valor: 1564,
     dataVencimento: "20-01-2021",
     dataPagamento: "20-01-2021",
     tipoDespesa: "variável"
@@ -90,7 +90,7 @@ const despesas = [
   {
     id: 12,
     nome: "compra de equipamentos",
-    valor: 2560,
+    valor: 3223,
     dataVencimento: "25-01-2021",
     dataPagamento: "25-01-2021",
     tipoDespesa: "variável"
@@ -98,7 +98,7 @@ const despesas = [
   {
     id: 13,
     nome: "luz",
-    valor: 1340,
+    valor: 3281,
     dataVencimento: "05-02-2021",
     dataPagamento: "05-02-2021",
     tipoDespesa: "fixa"
@@ -106,7 +106,7 @@ const despesas = [
   {
     id: 14,
     nome: "água",
-    valor: 355,
+    valor: 586,
     dataVencimento: "08-02-2021",
     dataPagamento: "08-02-2021",
     tipoDespesa: "fixa"
@@ -114,7 +114,7 @@ const despesas = [
   {
     id: 15,
     nome: "internet",
-    valor: 278,
+    valor: 939,
     dataVencimento: "11-02-2021",
     dataPagamento: "11-02-2021",
     tipoDespesa: "fixa"
@@ -122,7 +122,7 @@ const despesas = [
   {
     id: 16,
     nome: "telefone",
-    valor: 142,
+    valor: 258,
     dataVencimento: "14-02-2021",
     dataPagamento: "14-02-2021",
     tipoDespesa: "fixa"
@@ -130,7 +130,7 @@ const despesas = [
   {
     id: 17,
     nome: "aluguel",
-    valor: 3495,
+    valor: 6128,
     dataVencimento: "17-02-2021",
     dataPagamento: "17-02-2021",
     tipoDespesa: "fixa"
@@ -138,7 +138,7 @@ const despesas = [
   {
     id: 18,
     nome: "condomínio",
-    valor: 877,
+    valor: 1458,
     dataVencimento: "20-02-2021",
     dataPagamento: "20-02-2021",
     tipoDespesa: "fixa"
@@ -146,7 +146,7 @@ const despesas = [
   {
     id: 19,
     nome: "serviço de limpeza",
-    valor: 708,
+    valor: 1201,
     dataVencimento: "23-02-2021",
     dataPagamento: "23-02-2021",
     tipoDespesa: "fixa"
@@ -154,7 +154,7 @@ const despesas = [
   {
     id: 20,
     nome: "seguro patrimonial",
-    valor: 329,
+    valor: 563,
     dataVencimento: "26-02-2021",
     dataPagamento: "26-02-2021",
     tipoDespesa: "fixa"
@@ -162,7 +162,7 @@ const despesas = [
   {
     id: 21,
     nome: "licença de antivírus",
-    valor: 110,
+    valor: 2090,
     dataVencimento: "29-02-2021",
     dataPagamento: "29-02-2021",
     tipoDespesa: "fixa"
@@ -170,7 +170,7 @@ const despesas = [
   {
     id: 22,
     nome: "luz",
-    valor: 1033,
+    valor: 3389,
     dataVencimento: "05-03-2021",
     dataPagamento: "05-03-2021",
     tipoDespesa: "fixa"
@@ -178,7 +178,7 @@ const despesas = [
   {
     id: 23,
     nome: "água",
-    valor: 308,
+    valor: 602,
     dataVencimento: "08-03-2021",
     dataPagamento: "08-03-2021",
     tipoDespesa: "fixa"
@@ -186,7 +186,7 @@ const despesas = [
   {
     id: 24,
     nome: "internet",
-    valor: 300,
+    valor: 938,
     dataVencimento: "11-03-2021",
     dataPagamento: "11-03-2021",
     tipoDespesa: "fixa"
@@ -194,7 +194,7 @@ const despesas = [
   {
     id: 25,
     nome: "telefone",
-    valor: 138,
+    valor: 261,
     dataVencimento: "14-03-2021",
     dataPagamento: "14-03-2021",
     tipoDespesa: "fixa"
@@ -202,7 +202,7 @@ const despesas = [
   {
     id: 26,
     nome: "aluguel",
-    valor: 2952,
+    valor: 6148,
     dataVencimento: "17-03-2021",
     dataPagamento: "17-03-2021",
     tipoDespesa: "fixa"
@@ -210,7 +210,7 @@ const despesas = [
   {
     id: 27,
     nome: "condomínio",
-    valor: 769,
+    valor: 1488,
     dataVencimento: "20-03-2021",
     dataPagamento: "20-03-2021",
     tipoDespesa: "fixa"
@@ -218,7 +218,7 @@ const despesas = [
   {
     id: 28,
     nome: "serviço de limpeza",
-    valor: 713,
+    valor: 1216,
     dataVencimento: "23-03-2021",
     dataPagamento: "23-03-2021",
     tipoDespesa: "fixa"
@@ -226,7 +226,7 @@ const despesas = [
   {
     id: 29,
     nome: "seguro patrimonial",
-    valor: 278,
+    valor: 543,
     dataVencimento: "26-03-2021",
     dataPagamento: "26-03-2021",
     tipoDespesa: "fixa"
@@ -234,7 +234,7 @@ const despesas = [
   {
     id: 30,
     nome: "licença de antivírus",
-    valor: 112,
+    valor: 2087,
     dataVencimento: "29-03-2021",
     dataPagamento: "29-03-2021",
     tipoDespesa: "fixa"
@@ -242,7 +242,7 @@ const despesas = [
   {
     id: 31,
     nome: "luz",
-    valor: 1102,
+    valor: 3393,
     dataVencimento: "05-04-2021",
     dataPagamento: "05-04-2021",
     tipoDespesa: "fixa"
@@ -250,7 +250,7 @@ const despesas = [
   {
     id: 32,
     nome: "água",
-    valor: 325,
+    valor: 581,
     dataVencimento: "08-04-2021",
     dataPagamento: "08-04-2021",
     tipoDespesa: "fixa"
@@ -258,7 +258,7 @@ const despesas = [
   {
     id: 33,
     nome: "internet",
-    valor: 252,
+    valor: 905,
     dataVencimento: "11-04-2021",
     dataPagamento: "11-04-2021",
     tipoDespesa: "fixa"
@@ -266,7 +266,7 @@ const despesas = [
   {
     id: 34,
     nome: "telefone",
-    valor: 144,
+    valor: 263,
     dataVencimento: "14-04-2021",
     dataPagamento: "14-04-2021",
     tipoDespesa: "fixa"
@@ -274,7 +274,7 @@ const despesas = [
   {
     id: 35,
     nome: "aluguel",
-    valor: 3227,
+    valor: 6168,
     dataVencimento: "17-04-2021",
     dataPagamento: "17-04-2021",
     tipoDespesa: "fixa"
@@ -282,7 +282,7 @@ const despesas = [
   {
     id: 36,
     nome: "condomínio",
-    valor: 787,
+    valor: 1473,
     dataVencimento: "20-04-2021",
     dataPagamento: "20-04-2021",
     tipoDespesa: "fixa"
@@ -290,7 +290,7 @@ const despesas = [
   {
     id: 37,
     nome: "serviço de limpeza",
-    valor: 568,
+    valor: 1177,
     dataVencimento: "23-04-2021",
     dataPagamento: "23-04-2021",
     tipoDespesa: "fixa"
@@ -298,7 +298,7 @@ const despesas = [
   {
     id: 38,
     nome: "seguro patrimonial",
-    valor: 291,
+    valor: 551,
     dataVencimento: "26-04-2021",
     dataPagamento: "26-04-2021",
     tipoDespesa: "fixa"
@@ -306,7 +306,7 @@ const despesas = [
   {
     id: 39,
     nome: "licença de antivírus",
-    valor: 102,
+    valor: 2106,
     dataVencimento: "29-04-2021",
     dataPagamento: "29-04-2021",
     tipoDespesa: "fixa"
@@ -314,7 +314,7 @@ const despesas = [
   {
     id: 40,
     nome: "compra de materiais escolares",
-    valor: 1067,
+    valor: 935,
     dataVencimento: "15-04-2021",
     dataPagamento: "15-04-2021",
     tipoDespesa: "variável"
@@ -322,7 +322,7 @@ const despesas = [
   {
     id: 41,
     nome: "luz",
-    valor: 1078,
+    valor: 3279,
     dataVencimento: "05-05-2021",
     dataPagamento: "05-05-2021",
     tipoDespesa: "fixa"
@@ -330,7 +330,7 @@ const despesas = [
   {
     id: 42,
     nome: "água",
-    valor: 324,
+    valor: 592,
     dataVencimento: "08-05-2021",
     dataPagamento: "08-05-2021",
     tipoDespesa: "fixa"
@@ -338,7 +338,7 @@ const despesas = [
   {
     id: 43,
     nome: "internet",
-    valor: 272,
+    valor: 927,
     dataVencimento: "11-05-2021",
     dataPagamento: "11-05-2021",
     tipoDespesa: "fixa"
@@ -346,7 +346,7 @@ const despesas = [
   {
     id: 44,
     nome: "telefone",
-    valor: 150,
+    valor: 264,
     dataVencimento: "14-05-2021",
     dataPagamento: "14-05-2021",
     tipoDespesa: "fixa"
@@ -354,7 +354,7 @@ const despesas = [
   {
     id: 45,
     nome: "aluguel",
-    valor: 3634,
+    valor: 6234,
     dataVencimento: "17-05-2021",
     dataPagamento: "17-05-2021",
     tipoDespesa: "fixa"
@@ -362,7 +362,7 @@ const despesas = [
   {
     id: 46,
     nome: "condomínio",
-    valor: 910,
+    valor: 1462,
     dataVencimento: "20-05-2021",
     dataPagamento: "20-05-2021",
     tipoDespesa: "fixa"
@@ -370,7 +370,7 @@ const despesas = [
   {
     id: 47,
     nome: "serviço de limpeza",
-    valor: 697,
+    valor: 1179,
     dataVencimento: "23-05-2021",
     dataPagamento: "23-05-2021",
     tipoDespesa: "fixa"
@@ -378,7 +378,7 @@ const despesas = [
   {
     id: 48,
     nome: "seguro patrimonial",
-    valor: 343,
+    valor: 562,
     dataVencimento: "26-05-2021",
     dataPagamento: "26-05-2021",
     tipoDespesa: "fixa"
@@ -386,7 +386,7 @@ const despesas = [
   {
     id: 49,
     nome: "licença de antivírus",
-    valor: 125,
+    valor: 2054,
     dataVencimento: "29-05-2021",
     dataPagamento: "29-05-2021",
     tipoDespesa: "fixa"
@@ -394,7 +394,7 @@ const despesas = [
   {
     id: 50,
     nome: "luz",
-    valor: 1282,
+    valor: 3335,
     dataVencimento: "05-06-2021",
     dataPagamento: "05-06-2021",
     tipoDespesa: "fixa"
@@ -402,7 +402,7 @@ const despesas = [
   {
     id: 51,
     nome: "água",
-    valor: 310,
+    valor: 592,
     dataVencimento: "08-06-2021",
     dataPagamento: "08-06-2021",
     tipoDespesa: "fixa"
@@ -410,7 +410,7 @@ const despesas = [
   {
     id: 52,
     nome: "internet",
-    valor: 295,
+    valor: 905,
     dataVencimento: "11-06-2021",
     dataPagamento: "11-06-2021",
     tipoDespesa: "fixa"
@@ -418,7 +418,7 @@ const despesas = [
   {
     id: 53,
     nome: "telefone",
-    valor: 136,
+    valor: 259,
     dataVencimento: "14-06-2021",
     dataPagamento: "14-06-2021",
     tipoDespesa: "fixa"
@@ -426,7 +426,7 @@ const despesas = [
   {
     id: 54,
     nome: "aluguel",
-    valor: 3587,
+    valor: 6125,
     dataVencimento: "17-06-2021",
     dataPagamento: "17-06-2021",
     tipoDespesa: "fixa"
@@ -434,7 +434,7 @@ const despesas = [
   {
     id: 55,
     nome: "condomínio",
-    valor: 750,
+    valor: 1488,
     dataVencimento: "20-06-2021",
     dataPagamento: "20-06-2021",
     tipoDespesa: "fixa"
@@ -442,7 +442,7 @@ const despesas = [
   {
     id: 56,
     nome: "serviço de limpeza",
-    valor: 745,
+    valor: 1205,
     dataVencimento: "23-06-2021",
     dataPagamento: "23-06-2021",
     tipoDespesa: "fixa"
@@ -450,7 +450,7 @@ const despesas = [
   {
     id: 57,
     nome: "seguro patrimonial",
-    valor: 305,
+    valor: 545,
     dataVencimento: "26-06-2021",
     dataPagamento: "26-06-2021",
     tipoDespesa: "fixa"
@@ -458,7 +458,7 @@ const despesas = [
   {
     id: 58,
     nome: "licença de antivírus",
-    valor: 102,
+    valor: 2042,
     dataVencimento: "29-06-2021",
     dataPagamento: "29-06-2021",
     tipoDespesa: "fixa"
@@ -466,7 +466,7 @@ const despesas = [
   {
     id: 59,
     nome: "luz",
-    valor: 1352,
+    valor: 3344,
     dataVencimento: "05-07-2021",
     dataPagamento: "05-07-2021",
     tipoDespesa: "fixa"
@@ -474,7 +474,7 @@ const despesas = [
   {
     id: 60,
     nome: "água",
-    valor: 340,
+    valor: 579,
     dataVencimento: "08-07-2021",
     dataPagamento: "08-07-2021",
     tipoDespesa: "fixa"
@@ -482,7 +482,7 @@ const despesas = [
   {
     id: 61,
     nome: "internet",
-    valor: 282,
+    valor: 933,
     dataVencimento: "11-07-2021",
     dataPagamento: "11-07-2021",
     tipoDespesa: "fixa"
@@ -490,7 +490,7 @@ const despesas = [
   {
     id: 62,
     nome: "telefone",
-    valor: 157,
+    valor: 265,
     dataVencimento: "14-07-2021",
     dataPagamento: "14-07-2021",
     tipoDespesa: "fixa"
@@ -498,7 +498,7 @@ const despesas = [
   {
     id: 63,
     nome: "aluguel",
-    valor: 3576,
+    valor: 6306,
     dataVencimento: "17-07-2021",
     dataPagamento: "17-07-2021",
     tipoDespesa: "fixa"
@@ -506,7 +506,7 @@ const despesas = [
   {
     id: 64,
     nome: "condomínio",
-    valor: 817,
+    valor: 1459,
     dataVencimento: "20-07-2021",
     dataPagamento: "20-07-2021",
     tipoDespesa: "fixa"
@@ -514,7 +514,7 @@ const despesas = [
   {
     id: 65,
     nome: "serviço de limpeza",
-    valor: 591,
+    valor: 1177,
     dataVencimento: "23-07-2021",
     dataPagamento: "23-07-2021",
     tipoDespesa: "fixa"
@@ -522,7 +522,7 @@ const despesas = [
   {
     id: 66,
     nome: "seguro patrimonial",
-    valor: 330,
+    valor: 562,
     dataVencimento: "26-07-2021",
     dataPagamento: "26-07-2021",
     tipoDespesa: "fixa"
@@ -530,7 +530,7 @@ const despesas = [
   {
     id: 67,
     nome: "licença de antivírus",
-    valor: 124,
+    valor: 2079,
     dataVencimento: "29-07-2021",
     dataPagamento: "29-07-2021",
     tipoDespesa: "fixa"
@@ -538,7 +538,7 @@ const despesas = [
   {
     id: 68,
     nome: "compra de materiais escolares",
-    valor: 897,
+    valor: 1115,
     dataVencimento: "15-07-2021",
     dataPagamento: "15-07-2021",
     tipoDespesa: "variável"
@@ -546,7 +546,7 @@ const despesas = [
   {
     id: 69,
     nome: "manutenção predial",
-    valor: 1485,
+    valor: 1303,
     dataVencimento: "20-07-2021",
     dataPagamento: "20-07-2021",
     tipoDespesa: "variável"
@@ -554,7 +554,7 @@ const despesas = [
   {
     id: 70,
     nome: "luz",
-    valor: 1357,
+    valor: 3247,
     dataVencimento: "05-08-2021",
     dataPagamento: "05-08-2021",
     tipoDespesa: "fixa"
@@ -562,7 +562,7 @@ const despesas = [
   {
     id: 71,
     nome: "água",
-    valor: 312,
+    valor: 587,
     dataVencimento: "08-08-2021",
     dataPagamento: "08-08-2021",
     tipoDespesa: "fixa"
@@ -570,7 +570,7 @@ const despesas = [
   {
     id: 72,
     nome: "internet",
-    valor: 267,
+    valor: 913,
     dataVencimento: "11-08-2021",
     dataPagamento: "11-08-2021",
     tipoDespesa: "fixa"
@@ -578,7 +578,7 @@ const despesas = [
   {
     id: 73,
     nome: "telefone",
-    valor: 146,
+    valor: 259,
     dataVencimento: "14-08-2021",
     dataPagamento: "14-08-2021",
     tipoDespesa: "fixa"
@@ -586,7 +586,7 @@ const despesas = [
   {
     id: 74,
     nome: "aluguel",
-    valor: 3845,
+    valor: 6206,
     dataVencimento: "17-08-2021",
     dataPagamento: "17-08-2021",
     tipoDespesa: "fixa"
@@ -594,7 +594,7 @@ const despesas = [
   {
     id: 75,
     nome: "condomínio",
-    valor: 863,
+    valor: 1483,
     dataVencimento: "20-08-2021",
     dataPagamento: "20-08-2021",
     tipoDespesa: "fixa"
@@ -602,7 +602,7 @@ const despesas = [
   {
     id: 76,
     nome: "serviço de limpeza",
-    valor: 667,
+    valor: 1190,
     dataVencimento: "23-08-2021",
     dataPagamento: "23-08-2021",
     tipoDespesa: "fixa"
@@ -610,7 +610,7 @@ const despesas = [
   {
     id: 77,
     nome: "seguro patrimonial",
-    valor: 331,
+    valor: 545,
     dataVencimento: "26-08-2021",
     dataPagamento: "26-08-2021",
     tipoDespesa: "fixa"
@@ -618,7 +618,7 @@ const despesas = [
   {
     id: 78,
     nome: "licença de antivírus",
-    valor: 104,
+    valor: 2039,
     dataVencimento: "29-08-2021",
     dataPagamento: "29-08-2021",
     tipoDespesa: "fixa"
@@ -626,7 +626,7 @@ const despesas = [
   {
     id: 79,
     nome: "luz",
-    valor: 1187,
+    valor: 3405,
     dataVencimento: "05-09-2021",
     dataPagamento: "05-09-2021",
     tipoDespesa: "fixa"
@@ -634,7 +634,7 @@ const despesas = [
   {
     id: 80,
     nome: "água",
-    valor: 292,
+    valor: 597,
     dataVencimento: "08-09-2021",
     dataPagamento: "08-09-2021",
     tipoDespesa: "fixa"
@@ -642,7 +642,7 @@ const despesas = [
   {
     id: 81,
     nome: "internet",
-    valor: 253,
+    valor: 923,
     dataVencimento: "11-09-2021",
     dataPagamento: "11-09-2021",
     tipoDespesa: "fixa"
@@ -650,7 +650,7 @@ const despesas = [
   {
     id: 82,
     nome: "telefone",
-    valor: 159,
+    valor: 256,
     dataVencimento: "14-09-2021",
     dataPagamento: "14-09-2021",
     tipoDespesa: "fixa"
@@ -658,7 +658,7 @@ const despesas = [
   {
     id: 83,
     nome: "aluguel",
-    valor: 3439,
+    valor: 6422,
     dataVencimento: "17-09-2021",
     dataPagamento: "17-09-2021",
     tipoDespesa: "fixa"
@@ -666,7 +666,7 @@ const despesas = [
   {
     id: 84,
     nome: "condomínio",
-    valor: 775,
+    valor: 1505,
     dataVencimento: "20-09-2021",
     dataPagamento: "20-09-2021",
     tipoDespesa: "fixa"
@@ -674,7 +674,7 @@ const despesas = [
   {
     id: 85,
     nome: "serviço de limpeza",
-    valor: 729,
+    valor: 1204,
     dataVencimento: "23-09-2021",
     dataPagamento: "23-09-2021",
     tipoDespesa: "fixa"
@@ -682,7 +682,7 @@ const despesas = [
   {
     id: 86,
     nome: "seguro patrimonial",
-    valor: 266,
+    valor: 556,
     dataVencimento: "26-09-2021",
     dataPagamento: "26-09-2021",
     tipoDespesa: "fixa"
@@ -690,7 +690,7 @@ const despesas = [
   {
     id: 87,
     nome: "licença de antivírus",
-    valor: 113,
+    valor: 1999,
     dataVencimento: "29-09-2021",
     dataPagamento: "29-09-2021",
     tipoDespesa: "fixa"
@@ -698,7 +698,7 @@ const despesas = [
   {
     id: 88,
     nome: "luz",
-    valor: 1166,
+    valor: 3365,
     dataVencimento: "05-10-2021",
     dataPagamento: "05-10-2021",
     tipoDespesa: "fixa"
@@ -706,7 +706,7 @@ const despesas = [
   {
     id: 89,
     nome: "água",
-    valor: 344,
+    valor: 600,
     dataVencimento: "08-10-2021",
     dataPagamento: "08-10-2021",
     tipoDespesa: "fixa"
@@ -714,7 +714,7 @@ const despesas = [
   {
     id: 90,
     nome: "internet",
-    valor: 281,
+    valor: 920,
     dataVencimento: "11-10-2021",
     dataPagamento: "11-10-2021",
     tipoDespesa: "fixa"
@@ -722,7 +722,7 @@ const despesas = [
   {
     id: 91,
     nome: "telefone",
-    valor: 159,
+    valor: 257,
     dataVencimento: "14-10-2021",
     dataPagamento: "14-10-2021",
     tipoDespesa: "fixa"
@@ -730,7 +730,7 @@ const despesas = [
   {
     id: 92,
     nome: "aluguel",
-    valor: 3003,
+    valor: 6414,
     dataVencimento: "17-10-2021",
     dataPagamento: "17-10-2021",
     tipoDespesa: "fixa"
@@ -738,7 +738,7 @@ const despesas = [
   {
     id: 93,
     nome: "condomínio",
-    valor: 698,
+    valor: 1506,
     dataVencimento: "20-10-2021",
     dataPagamento: "20-10-2021",
     tipoDespesa: "fixa"
@@ -746,7 +746,7 @@ const despesas = [
   {
     id: 94,
     nome: "serviço de limpeza",
-    valor: 656,
+    valor: 1212,
     dataVencimento: "23-10-2021",
     dataPagamento: "23-10-2021",
     tipoDespesa: "fixa"
@@ -754,7 +754,7 @@ const despesas = [
   {
     id: 95,
     nome: "seguro patrimonial",
-    valor: 343,
+    valor: 567,
     dataVencimento: "26-10-2021",
     dataPagamento: "26-10-2021",
     tipoDespesa: "fixa"
@@ -762,7 +762,7 @@ const despesas = [
   {
     id: 96,
     nome: "licença de antivírus",
-    valor: 123,
+    valor: 2038,
     dataVencimento: "29-10-2021",
     dataPagamento: "29-10-2021",
     tipoDespesa: "fixa"
@@ -770,7 +770,7 @@ const despesas = [
   {
     id: 97,
     nome: "compra de materiais escolares",
-    valor: 1112,
+    valor: 1074,
     dataVencimento: "15-10-2021",
     dataPagamento: "15-10-2021",
     tipoDespesa: "variável"
@@ -778,7 +778,7 @@ const despesas = [
   {
     id: 98,
     nome: "luz",
-    valor: 1341,
+    valor: 3286,
     dataVencimento: "05-11-2021",
     dataPagamento: "05-11-2021",
     tipoDespesa: "fixa"
@@ -786,7 +786,7 @@ const despesas = [
   {
     id: 99,
     nome: "água",
-    valor: 284,
+    valor: 586,
     dataVencimento: "08-11-2021",
     dataPagamento: "08-11-2021",
     tipoDespesa: "fixa"
@@ -794,7 +794,7 @@ const despesas = [
   {
     id: 100,
     nome: "internet",
-    valor: 318,
+    valor: 902,
     dataVencimento: "11-11-2021",
     dataPagamento: "11-11-2021",
     tipoDespesa: "fixa"
@@ -802,7 +802,7 @@ const despesas = [
   {
     id: 101,
     nome: "telefone",
-    valor: 132,
+    valor: 253,
     dataVencimento: "14-11-2021",
     dataPagamento: "14-11-2021",
     tipoDespesa: "fixa"
@@ -810,7 +810,7 @@ const despesas = [
   {
     id: 102,
     nome: "aluguel",
-    valor: 3216,
+    valor: 6151,
     dataVencimento: "17-11-2021",
     dataPagamento: "17-11-2021",
     tipoDespesa: "fixa"
@@ -818,7 +818,7 @@ const despesas = [
   {
     id: 103,
     nome: "condomínio",
-    valor: 683,
+    valor: 1483,
     dataVencimento: "20-11-2021",
     dataPagamento: "20-11-2021",
     tipoDespesa: "fixa"
@@ -826,7 +826,7 @@ const despesas = [
   {
     id: 104,
     nome: "serviço de limpeza",
-    valor: 739,
+    valor: 1192,
     dataVencimento: "23-11-2021",
     dataPagamento: "23-11-2021",
     tipoDespesa: "fixa"
@@ -834,7 +834,7 @@ const despesas = [
   {
     id: 105,
     nome: "seguro patrimonial",
-    valor: 286,
+    valor: 555,
     dataVencimento: "26-11-2021",
     dataPagamento: "26-11-2021",
     tipoDespesa: "fixa"
@@ -842,7 +842,7 @@ const despesas = [
   {
     id: 106,
     nome: "licença de antivírus",
-    valor: 97,
+    valor: 2060,
     dataVencimento: "29-11-2021",
     dataPagamento: "29-11-2021",
     tipoDespesa: "fixa"
@@ -850,7 +850,7 @@ const despesas = [
   {
     id: 107,
     nome: "luz",
-    valor: 1185,
+    valor: 3409,
     dataVencimento: "05-12-2021",
     dataPagamento: "05-12-2021",
     tipoDespesa: "fixa"
@@ -858,7 +858,7 @@ const despesas = [
   {
     id: 108,
     nome: "água",
-    valor: 276,
+    valor: 583,
     dataVencimento: "08-12-2021",
     dataPagamento: "08-12-2021",
     tipoDespesa: "fixa"
@@ -866,7 +866,7 @@ const despesas = [
   {
     id: 109,
     nome: "internet",
-    valor: 313,
+    valor: 949,
     dataVencimento: "11-12-2021",
     dataPagamento: "11-12-2021",
     tipoDespesa: "fixa"
@@ -874,7 +874,7 @@ const despesas = [
   {
     id: 110,
     nome: "telefone",
-    valor: 132,
+    valor: 255,
     dataVencimento: "14-12-2021",
     dataPagamento: "14-12-2021",
     tipoDespesa: "fixa"
@@ -882,7 +882,7 @@ const despesas = [
   {
     id: 111,
     nome: "aluguel",
-    valor: 3845,
+    valor: 6424,
     dataVencimento: "17-12-2021",
     dataPagamento: "17-12-2021",
     tipoDespesa: "fixa"
@@ -890,7 +890,7 @@ const despesas = [
   {
     id: 112,
     nome: "condomínio",
-    valor: 890,
+    valor: 1510,
     dataVencimento: "20-12-2021",
     dataPagamento: "20-12-2021",
     tipoDespesa: "fixa"
@@ -898,7 +898,7 @@ const despesas = [
   {
     id: 113,
     nome: "serviço de limpeza",
-    valor: 652,
+    valor: 1186,
     dataVencimento: "23-12-2021",
     dataPagamento: "23-12-2021",
     tipoDespesa: "fixa"
@@ -906,7 +906,7 @@ const despesas = [
   {
     id: 114,
     nome: "seguro patrimonial",
-    valor: 304,
+    valor: 541,
     dataVencimento: "26-12-2021",
     dataPagamento: "26-12-2021",
     tipoDespesa: "fixa"
@@ -914,7 +914,7 @@ const despesas = [
   {
     id: 115,
     nome: "licença de antivírus",
-    valor: 102,
+    valor: 2057,
     dataVencimento: "29-12-2021",
     dataPagamento: "29-12-2021",
     tipoDespesa: "fixa"
@@ -922,7 +922,7 @@ const despesas = [
   {
     id: 116,
     nome: "luz",
-    valor: 1066,
+    valor: 3281,
     dataVencimento: "05-01-2022",
     dataPagamento: "05-01-2022",
     tipoDespesa: "fixa"
@@ -930,7 +930,7 @@ const despesas = [
   {
     id: 117,
     nome: "água",
-    valor: 326,
+    valor: 586,
     dataVencimento: "08-01-2022",
     dataPagamento: "08-01-2022",
     tipoDespesa: "fixa"
@@ -938,7 +938,7 @@ const despesas = [
   {
     id: 118,
     nome: "internet",
-    valor: 275,
+    valor: 906,
     dataVencimento: "11-01-2022",
     dataPagamento: "11-01-2022",
     tipoDespesa: "fixa"
@@ -946,7 +946,7 @@ const despesas = [
   {
     id: 119,
     nome: "telefone",
-    valor: 130,
+    valor: 265,
     dataVencimento: "14-01-2022",
     dataPagamento: "14-01-2022",
     tipoDespesa: "fixa"
@@ -954,7 +954,7 @@ const despesas = [
   {
     id: 120,
     nome: "aluguel",
-    valor: 3819,
+    valor: 6263,
     dataVencimento: "17-01-2022",
     dataPagamento: "17-01-2022",
     tipoDespesa: "fixa"
@@ -962,7 +962,7 @@ const despesas = [
   {
     id: 121,
     nome: "condomínio",
-    valor: 917,
+    valor: 1498,
     dataVencimento: "20-01-2022",
     dataPagamento: "20-01-2022",
     tipoDespesa: "fixa"
@@ -970,7 +970,7 @@ const despesas = [
   {
     id: 122,
     nome: "serviço de limpeza",
-    valor: 729,
+    valor: 1172,
     dataVencimento: "23-01-2022",
     dataPagamento: "23-01-2022",
     tipoDespesa: "fixa"
@@ -978,7 +978,7 @@ const despesas = [
   {
     id: 123,
     nome: "seguro patrimonial",
-    valor: 304,
+    valor: 557,
     dataVencimento: "26-01-2022",
     dataPagamento: "26-01-2022",
     tipoDespesa: "fixa"
@@ -986,7 +986,7 @@ const despesas = [
   {
     id: 124,
     nome: "licença de antivírus",
-    valor: 96,
+    valor: 2002,
     dataVencimento: "29-01-2022",
     dataPagamento: "29-01-2022",
     tipoDespesa: "fixa"
@@ -994,7 +994,7 @@ const despesas = [
   {
     id: 125,
     nome: "compra de materiais escolares",
-    valor: 1080,
+    valor: 916,
     dataVencimento: "15-01-2022",
     dataPagamento: "15-01-2022",
     tipoDespesa: "variável"
@@ -1002,7 +1002,7 @@ const despesas = [
   {
     id: 126,
     nome: "manutenção predial",
-    valor: 1220,
+    valor: 1315,
     dataVencimento: "20-01-2022",
     dataPagamento: "20-01-2022",
     tipoDespesa: "variável"
@@ -1010,7 +1010,7 @@ const despesas = [
   {
     id: 127,
     nome: "compra de equipamentos",
-    valor: 3872,
+    valor: 3531,
     dataVencimento: "25-01-2022",
     dataPagamento: "25-01-2022",
     tipoDespesa: "variável"
@@ -1018,7 +1018,7 @@ const despesas = [
   {
     id: 128,
     nome: "luz",
-    valor: 1299,
+    valor: 3284,
     dataVencimento: "05-02-2022",
     dataPagamento: "05-02-2022",
     tipoDespesa: "fixa"
@@ -1026,7 +1026,7 @@ const despesas = [
   {
     id: 129,
     nome: "água",
-    valor: 306,
+    valor: 591,
     dataVencimento: "08-02-2022",
     dataPagamento: "08-02-2022",
     tipoDespesa: "fixa"
@@ -1034,7 +1034,7 @@ const despesas = [
   {
     id: 130,
     nome: "internet",
-    valor: 317,
+    valor: 914,
     dataVencimento: "11-02-2022",
     dataPagamento: "11-02-2022",
     tipoDespesa: "fixa"
@@ -1042,7 +1042,7 @@ const despesas = [
   {
     id: 131,
     nome: "telefone",
-    valor: 147,
+    valor: 262,
     dataVencimento: "14-02-2022",
     dataPagamento: "14-02-2022",
     tipoDespesa: "fixa"
@@ -1050,7 +1050,7 @@ const despesas = [
   {
     id: 132,
     nome: "aluguel",
-    valor: 3083,
+    valor: 6216,
     dataVencimento: "17-02-2022",
     dataPagamento: "17-02-2022",
     tipoDespesa: "fixa"
@@ -1058,7 +1058,7 @@ const despesas = [
   {
     id: 133,
     nome: "condomínio",
-    valor: 813,
+    valor: 1476,
     dataVencimento: "20-02-2022",
     dataPagamento: "20-02-2022",
     tipoDespesa: "fixa"
@@ -1066,7 +1066,7 @@ const despesas = [
   {
     id: 134,
     nome: "serviço de limpeza",
-    valor: 700,
+    valor: 1224,
     dataVencimento: "23-02-2022",
     dataPagamento: "23-02-2022",
     tipoDespesa: "fixa"
@@ -1074,7 +1074,7 @@ const despesas = [
   {
     id: 135,
     nome: "seguro patrimonial",
-    valor: 302,
+    valor: 544,
     dataVencimento: "26-02-2022",
     dataPagamento: "26-02-2022",
     tipoDespesa: "fixa"
@@ -1082,7 +1082,7 @@ const despesas = [
   {
     id: 136,
     nome: "licença de antivírus",
-    valor: 118,
+    valor: 2105,
     dataVencimento: "29-02-2022",
     dataPagamento: "29-02-2022",
     tipoDespesa: "fixa"
@@ -1090,7 +1090,7 @@ const despesas = [
   {
     id: 137,
     nome: "luz",
-    valor: 1287,
+    valor: 3266,
     dataVencimento: "05-03-2022",
     dataPagamento: "05-03-2022",
     tipoDespesa: "fixa"
@@ -1098,7 +1098,7 @@ const despesas = [
   {
     id: 138,
     nome: "água",
-    valor: 337,
+    valor: 607,
     dataVencimento: "08-03-2022",
     dataPagamento: "08-03-2022",
     tipoDespesa: "fixa"
@@ -1106,7 +1106,7 @@ const despesas = [
   {
     id: 139,
     nome: "internet",
-    valor: 243,
+    valor: 927,
     dataVencimento: "11-03-2022",
     dataPagamento: "11-03-2022",
     tipoDespesa: "fixa"
@@ -1114,7 +1114,7 @@ const despesas = [
   {
     id: 140,
     nome: "telefone",
-    valor: 153,
+    valor: 259,
     dataVencimento: "14-03-2022",
     dataPagamento: "14-03-2022",
     tipoDespesa: "fixa"
@@ -1122,7 +1122,7 @@ const despesas = [
   {
     id: 141,
     nome: "aluguel",
-    valor: 3319,
+    valor: 6343,
     dataVencimento: "17-03-2022",
     dataPagamento: "17-03-2022",
     tipoDespesa: "fixa"
@@ -1130,7 +1130,7 @@ const despesas = [
   {
     id: 142,
     nome: "condomínio",
-    valor: 808,
+    valor: 1458,
     dataVencimento: "20-03-2022",
     dataPagamento: "20-03-2022",
     tipoDespesa: "fixa"
@@ -1138,7 +1138,7 @@ const despesas = [
   {
     id: 143,
     nome: "serviço de limpeza",
-    valor: 630,
+    valor: 1176,
     dataVencimento: "23-03-2022",
     dataPagamento: "23-03-2022",
     tipoDespesa: "fixa"
@@ -1146,7 +1146,7 @@ const despesas = [
   {
     id: 144,
     nome: "seguro patrimonial",
-    valor: 310,
+    valor: 541,
     dataVencimento: "26-03-2022",
     dataPagamento: "26-03-2022",
     tipoDespesa: "fixa"
@@ -1154,7 +1154,7 @@ const despesas = [
   {
     id: 145,
     nome: "licença de antivírus",
-    valor: 121,
+    valor: 2047,
     dataVencimento: "29-03-2022",
     dataPagamento: "29-03-2022",
     tipoDespesa: "fixa"
@@ -1162,7 +1162,7 @@ const despesas = [
   {
     id: 146,
     nome: "luz",
-    valor: 1224,
+    valor: 3410,
     dataVencimento: "05-04-2022",
     dataPagamento: "05-04-2022",
     tipoDespesa: "fixa"
@@ -1170,7 +1170,7 @@ const despesas = [
   {
     id: 147,
     nome: "água",
-    valor: 323,
+    valor: 599,
     dataVencimento: "08-04-2022",
     dataPagamento: "08-04-2022",
     tipoDespesa: "fixa"
@@ -1178,7 +1178,7 @@ const despesas = [
   {
     id: 148,
     nome: "internet",
-    valor: 315,
+    valor: 950,
     dataVencimento: "11-04-2022",
     dataPagamento: "11-04-2022",
     tipoDespesa: "fixa"
@@ -1186,7 +1186,7 @@ const despesas = [
   {
     id: 149,
     nome: "telefone",
-    valor: 144,
+    valor: 261,
     dataVencimento: "14-04-2022",
     dataPagamento: "14-04-2022",
     tipoDespesa: "fixa"
@@ -1194,7 +1194,7 @@ const despesas = [
   {
     id: 150,
     nome: "aluguel",
-    valor: 3710,
+    valor: 6129,
     dataVencimento: "17-04-2022",
     dataPagamento: "17-04-2022",
     tipoDespesa: "fixa"
@@ -1202,7 +1202,7 @@ const despesas = [
   {
     id: 151,
     nome: "condomínio",
-    valor: 897,
+    valor: 1504,
     dataVencimento: "20-04-2022",
     dataPagamento: "20-04-2022",
     tipoDespesa: "fixa"
@@ -1210,7 +1210,7 @@ const despesas = [
   {
     id: 152,
     nome: "serviço de limpeza",
-    valor: 617,
+    valor: 1207,
     dataVencimento: "23-04-2022",
     dataPagamento: "23-04-2022",
     tipoDespesa: "fixa"
@@ -1218,7 +1218,7 @@ const despesas = [
   {
     id: 153,
     nome: "seguro patrimonial",
-    valor: 258,
+    valor: 540,
     dataVencimento: "26-04-2022",
     dataPagamento: "26-04-2022",
     tipoDespesa: "fixa"
@@ -1226,7 +1226,7 @@ const despesas = [
   {
     id: 154,
     nome: "licença de antivírus",
-    valor: 113,
+    valor: 2021,
     dataVencimento: "29-04-2022",
     dataPagamento: "29-04-2022",
     tipoDespesa: "fixa"
@@ -1234,7 +1234,7 @@ const despesas = [
   {
     id: 155,
     nome: "compra de materiais escolares",
-    valor: 999,
+    valor: 1128,
     dataVencimento: "15-04-2022",
     dataPagamento: "15-04-2022",
     tipoDespesa: "variável"
@@ -1242,7 +1242,7 @@ const despesas = [
   {
     id: 156,
     nome: "luz",
-    valor: 1291,
+    valor: 3417,
     dataVencimento: "05-05-2022",
     dataPagamento: "05-05-2022",
     tipoDespesa: "fixa"
@@ -1250,7 +1250,7 @@ const despesas = [
   {
     id: 157,
     nome: "água",
-    valor: 352,
+    valor: 606,
     dataVencimento: "08-05-2022",
     dataPagamento: "08-05-2022",
     tipoDespesa: "fixa"
@@ -1258,7 +1258,7 @@ const despesas = [
   {
     id: 158,
     nome: "internet",
-    valor: 258,
+    valor: 931,
     dataVencimento: "11-05-2022",
     dataPagamento: "11-05-2022",
     tipoDespesa: "fixa"
@@ -1266,7 +1266,7 @@ const despesas = [
   {
     id: 159,
     nome: "telefone",
-    valor: 159,
+    valor: 254,
     dataVencimento: "14-05-2022",
     dataPagamento: "14-05-2022",
     tipoDespesa: "fixa"
@@ -1274,7 +1274,7 @@ const despesas = [
   {
     id: 160,
     nome: "aluguel",
-    valor: 3829,
+    valor: 6404,
     dataVencimento: "17-05-2022",
     dataPagamento: "17-05-2022",
     tipoDespesa: "fixa"
@@ -1282,7 +1282,7 @@ const despesas = [
   {
     id: 161,
     nome: "condomínio",
-    valor: 699,
+    valor: 1471,
     dataVencimento: "20-05-2022",
     dataPagamento: "20-05-2022",
     tipoDespesa: "fixa"
@@ -1290,7 +1290,7 @@ const despesas = [
   {
     id: 162,
     nome: "serviço de limpeza",
-    valor: 717,
+    valor: 1177,
     dataVencimento: "23-05-2022",
     dataPagamento: "23-05-2022",
     tipoDespesa: "fixa"
@@ -1298,7 +1298,7 @@ const despesas = [
   {
     id: 163,
     nome: "seguro patrimonial",
-    valor: 258,
+    valor: 562,
     dataVencimento: "26-05-2022",
     dataPagamento: "26-05-2022",
     tipoDespesa: "fixa"
@@ -1306,7 +1306,7 @@ const despesas = [
   {
     id: 164,
     nome: "licença de antivírus",
-    valor: 126,
+    valor: 2002,
     dataVencimento: "29-05-2022",
     dataPagamento: "29-05-2022",
     tipoDespesa: "fixa"
@@ -1314,7 +1314,7 @@ const despesas = [
   {
     id: 165,
     nome: "luz",
-    valor: 1204,
+    valor: 3373,
     dataVencimento: "05-06-2022",
     dataPagamento: "05-06-2022",
     tipoDespesa: "fixa"
@@ -1322,7 +1322,7 @@ const despesas = [
   {
     id: 166,
     nome: "água",
-    valor: 343,
+    valor: 601,
     dataVencimento: "08-06-2022",
     dataPagamento: "08-06-2022",
     tipoDespesa: "fixa"
@@ -1330,7 +1330,7 @@ const despesas = [
   {
     id: 167,
     nome: "internet",
-    valor: 261,
+    valor: 916,
     dataVencimento: "11-06-2022",
     dataPagamento: "11-06-2022",
     tipoDespesa: "fixa"
@@ -1338,7 +1338,7 @@ const despesas = [
   {
     id: 168,
     nome: "telefone",
-    valor: 132,
+    valor: 257,
     dataVencimento: "14-06-2022",
     dataPagamento: "14-06-2022",
     tipoDespesa: "fixa"
@@ -1346,7 +1346,7 @@ const despesas = [
   {
     id: 169,
     nome: "aluguel",
-    valor: 3020,
+    valor: 6342,
     dataVencimento: "17-06-2022",
     dataPagamento: "17-06-2022",
     tipoDespesa: "fixa"
@@ -1354,7 +1354,7 @@ const despesas = [
   {
     id: 170,
     nome: "condomínio",
-    valor: 694,
+    valor: 1445,
     dataVencimento: "20-06-2022",
     dataPagamento: "20-06-2022",
     tipoDespesa: "fixa"
@@ -1362,7 +1362,7 @@ const despesas = [
   {
     id: 171,
     nome: "serviço de limpeza",
-    valor: 682,
+    valor: 1170,
     dataVencimento: "23-06-2022",
     dataPagamento: "23-06-2022",
     tipoDespesa: "fixa"
@@ -1370,7 +1370,7 @@ const despesas = [
   {
     id: 172,
     nome: "seguro patrimonial",
-    valor: 333,
+    valor: 549,
     dataVencimento: "26-06-2022",
     dataPagamento: "26-06-2022",
     tipoDespesa: "fixa"
@@ -1378,7 +1378,7 @@ const despesas = [
   {
     id: 173,
     nome: "licença de antivírus",
-    valor: 105,
+    valor: 2106,
     dataVencimento: "29-06-2022",
     dataPagamento: "29-06-2022",
     tipoDespesa: "fixa"
@@ -1386,7 +1386,7 @@ const despesas = [
   {
     id: 174,
     nome: "luz",
-    valor: 1036,
+    valor: 3309,
     dataVencimento: "05-07-2022",
     dataPagamento: "05-07-2022",
     tipoDespesa: "fixa"
@@ -1394,7 +1394,7 @@ const despesas = [
   {
     id: 175,
     nome: "água",
-    valor: 335,
+    valor: 602,
     dataVencimento: "08-07-2022",
     dataPagamento: "08-07-2022",
     tipoDespesa: "fixa"
@@ -1402,7 +1402,7 @@ const despesas = [
   {
     id: 176,
     nome: "internet",
-    valor: 273,
+    valor: 903,
     dataVencimento: "11-07-2022",
     dataPagamento: "11-07-2022",
     tipoDespesa: "fixa"
@@ -1410,7 +1410,7 @@ const despesas = [
   {
     id: 177,
     nome: "telefone",
-    valor: 133,
+    valor: 263,
     dataVencimento: "14-07-2022",
     dataPagamento: "14-07-2022",
     tipoDespesa: "fixa"
@@ -1418,7 +1418,7 @@ const despesas = [
   {
     id: 178,
     nome: "aluguel",
-    valor: 3868,
+    valor: 6428,
     dataVencimento: "17-07-2022",
     dataPagamento: "17-07-2022",
     tipoDespesa: "fixa"
@@ -1426,7 +1426,7 @@ const despesas = [
   {
     id: 179,
     nome: "condomínio",
-    valor: 825,
+    valor: 1461,
     dataVencimento: "20-07-2022",
     dataPagamento: "20-07-2022",
     tipoDespesa: "fixa"
@@ -1434,7 +1434,7 @@ const despesas = [
   {
     id: 180,
     nome: "serviço de limpeza",
-    valor: 681,
+    valor: 1213,
     dataVencimento: "23-07-2022",
     dataPagamento: "23-07-2022",
     tipoDespesa: "fixa"
@@ -1442,7 +1442,7 @@ const despesas = [
   {
     id: 181,
     nome: "seguro patrimonial",
-    valor: 306,
+    valor: 552,
     dataVencimento: "26-07-2022",
     dataPagamento: "26-07-2022",
     tipoDespesa: "fixa"
@@ -1450,7 +1450,7 @@ const despesas = [
   {
     id: 182,
     nome: "licença de antivírus",
-    valor: 120,
+    valor: 2000,
     dataVencimento: "29-07-2022",
     dataPagamento: "29-07-2022",
     tipoDespesa: "fixa"
@@ -1458,7 +1458,7 @@ const despesas = [
   {
     id: 183,
     nome: "compra de materiais escolares",
-    valor: 822,
+    valor: 1144,
     dataVencimento: "15-07-2022",
     dataPagamento: "15-07-2022",
     tipoDespesa: "variável"
@@ -1466,7 +1466,7 @@ const despesas = [
   {
     id: 184,
     nome: "manutenção predial",
-    valor: 1538,
+    valor: 1292,
     dataVencimento: "20-07-2022",
     dataPagamento: "20-07-2022",
     tipoDespesa: "variável"
@@ -1474,7 +1474,7 @@ const despesas = [
   {
     id: 185,
     nome: "luz",
-    valor: 1133,
+    valor: 3408,
     dataVencimento: "05-08-2022",
     dataPagamento: "05-08-2022",
     tipoDespesa: "fixa"
@@ -1482,7 +1482,7 @@ const despesas = [
   {
     id: 186,
     nome: "água",
-    valor: 327,
+    valor: 581,
     dataVencimento: "08-08-2022",
     dataPagamento: "08-08-2022",
     tipoDespesa: "fixa"
@@ -1490,7 +1490,7 @@ const despesas = [
   {
     id: 187,
     nome: "internet",
-    valor: 301,
+    valor: 949,
     dataVencimento: "11-08-2022",
     dataPagamento: "11-08-2022",
     tipoDespesa: "fixa"
@@ -1498,7 +1498,7 @@ const despesas = [
   {
     id: 188,
     nome: "telefone",
-    valor: 120,
+    valor: 265,
     dataVencimento: "14-08-2022",
     dataPagamento: "14-08-2022",
     tipoDespesa: "fixa"
@@ -1506,7 +1506,7 @@ const despesas = [
   {
     id: 189,
     nome: "aluguel",
-    valor: 3040,
+    valor: 6169,
     dataVencimento: "17-08-2022",
     dataPagamento: "17-08-2022",
     tipoDespesa: "fixa"
@@ -1514,7 +1514,7 @@ const despesas = [
   {
     id: 190,
     nome: "condomínio",
-    valor: 817,
+    valor: 1445,
     dataVencimento: "20-08-2022",
     dataPagamento: "20-08-2022",
     tipoDespesa: "fixa"
@@ -1522,7 +1522,7 @@ const despesas = [
   {
     id: 191,
     nome: "serviço de limpeza",
-    valor: 701,
+    valor: 1224,
     dataVencimento: "23-08-2022",
     dataPagamento: "23-08-2022",
     tipoDespesa: "fixa"
@@ -1530,7 +1530,7 @@ const despesas = [
   {
     id: 192,
     nome: "seguro patrimonial",
-    valor: 299,
+    valor: 562,
     dataVencimento: "26-08-2022",
     dataPagamento: "26-08-2022",
     tipoDespesa: "fixa"
@@ -1538,7 +1538,7 @@ const despesas = [
   {
     id: 193,
     nome: "licença de antivírus",
-    valor: 125,
+    valor: 2004,
     dataVencimento: "29-08-2022",
     dataPagamento: "29-08-2022",
     tipoDespesa: "fixa"
@@ -1546,7 +1546,7 @@ const despesas = [
   {
     id: 194,
     nome: "luz",
-    valor: 1106,
+    valor: 3360,
     dataVencimento: "05-09-2022",
     dataPagamento: "05-09-2022",
     tipoDespesa: "fixa"
@@ -1554,7 +1554,7 @@ const despesas = [
   {
     id: 195,
     nome: "água",
-    valor: 313,
+    valor: 606,
     dataVencimento: "08-09-2022",
     dataPagamento: "08-09-2022",
     tipoDespesa: "fixa"
@@ -1562,7 +1562,7 @@ const despesas = [
   {
     id: 196,
     nome: "internet",
-    valor: 249,
+    valor: 906,
     dataVencimento: "11-09-2022",
     dataPagamento: "11-09-2022",
     tipoDespesa: "fixa"
@@ -1570,7 +1570,7 @@ const despesas = [
   {
     id: 197,
     nome: "telefone",
-    valor: 155,
+    valor: 255,
     dataVencimento: "14-09-2022",
     dataPagamento: "14-09-2022",
     tipoDespesa: "fixa"
@@ -1578,7 +1578,7 @@ const despesas = [
   {
     id: 198,
     nome: "aluguel",
-    valor: 3619,
+    valor: 6225,
     dataVencimento: "17-09-2022",
     dataPagamento: "17-09-2022",
     tipoDespesa: "fixa"
@@ -1586,7 +1586,7 @@ const despesas = [
   {
     id: 199,
     nome: "condomínio",
-    valor: 780,
+    valor: 1444,
     dataVencimento: "20-09-2022",
     dataPagamento: "20-09-2022",
     tipoDespesa: "fixa"
@@ -1594,7 +1594,7 @@ const despesas = [
   {
     id: 200,
     nome: "serviço de limpeza",
-    valor: 624,
+    valor: 1189,
     dataVencimento: "23-09-2022",
     dataPagamento: "23-09-2022",
     tipoDespesa: "fixa"
@@ -1602,7 +1602,7 @@ const despesas = [
   {
     id: 201,
     nome: "seguro patrimonial",
-    valor: 299,
+    valor: 548,
     dataVencimento: "26-09-2022",
     dataPagamento: "26-09-2022",
     tipoDespesa: "fixa"
@@ -1610,7 +1610,7 @@ const despesas = [
   {
     id: 202,
     nome: "licença de antivírus",
-    valor: 119,
+    valor: 2072,
     dataVencimento: "29-09-2022",
     dataPagamento: "29-09-2022",
     tipoDespesa: "fixa"
@@ -1618,7 +1618,7 @@ const despesas = [
   {
     id: 203,
     nome: "luz",
-    valor: 1077,
+    valor: 3412,
     dataVencimento: "05-10-2022",
     dataPagamento: "05-10-2022",
     tipoDespesa: "fixa"
@@ -1626,7 +1626,7 @@ const despesas = [
   {
     id: 204,
     nome: "água",
-    valor: 353,
+    valor: 582,
     dataVencimento: "08-10-2022",
     dataPagamento: "08-10-2022",
     tipoDespesa: "fixa"
@@ -1634,7 +1634,7 @@ const despesas = [
   {
     id: 205,
     nome: "internet",
-    valor: 240,
+    valor: 903,
     dataVencimento: "11-10-2022",
     dataPagamento: "11-10-2022",
     tipoDespesa: "fixa"
@@ -1642,7 +1642,7 @@ const despesas = [
   {
     id: 206,
     nome: "telefone",
-    valor: 131,
+    valor: 257,
     dataVencimento: "14-10-2022",
     dataPagamento: "14-10-2022",
     tipoDespesa: "fixa"
@@ -1650,7 +1650,7 @@ const despesas = [
   {
     id: 207,
     nome: "aluguel",
-    valor: 3424,
+    valor: 6186,
     dataVencimento: "17-10-2022",
     dataPagamento: "17-10-2022",
     tipoDespesa: "fixa"
@@ -1658,7 +1658,7 @@ const despesas = [
   {
     id: 208,
     nome: "condomínio",
-    valor: 770,
+    valor: 1493,
     dataVencimento: "20-10-2022",
     dataPagamento: "20-10-2022",
     tipoDespesa: "fixa"
@@ -1666,7 +1666,7 @@ const despesas = [
   {
     id: 209,
     nome: "serviço de limpeza",
-    valor: 737,
+    valor: 1182,
     dataVencimento: "23-10-2022",
     dataPagamento: "23-10-2022",
     tipoDespesa: "fixa"
@@ -1674,7 +1674,7 @@ const despesas = [
   {
     id: 210,
     nome: "seguro patrimonial",
-    valor: 292,
+    valor: 560,
     dataVencimento: "26-10-2022",
     dataPagamento: "26-10-2022",
     tipoDespesa: "fixa"
@@ -1682,7 +1682,7 @@ const despesas = [
   {
     id: 211,
     nome: "licença de antivírus",
-    valor: 95,
+    valor: 2039,
     dataVencimento: "29-10-2022",
     dataPagamento: "29-10-2022",
     tipoDespesa: "fixa"
@@ -1690,7 +1690,7 @@ const despesas = [
   {
     id: 212,
     nome: "compra de materiais escolares",
-    valor: 1079,
+    valor: 994,
     dataVencimento: "15-10-2022",
     dataPagamento: "15-10-2022",
     tipoDespesa: "variável"
@@ -1698,7 +1698,7 @@ const despesas = [
   {
     id: 213,
     nome: "luz",
-    valor: 1281,
+    valor: 3281,
     dataVencimento: "05-11-2022",
     dataPagamento: "05-11-2022",
     tipoDespesa: "fixa"
@@ -1706,7 +1706,7 @@ const despesas = [
   {
     id: 214,
     nome: "água",
-    valor: 348,
+    valor: 594,
     dataVencimento: "08-11-2022",
     dataPagamento: "08-11-2022",
     tipoDespesa: "fixa"
@@ -1714,7 +1714,7 @@ const despesas = [
   {
     id: 215,
     nome: "internet",
-    valor: 282,
+    valor: 901,
     dataVencimento: "11-11-2022",
     dataPagamento: "11-11-2022",
     tipoDespesa: "fixa"
@@ -1722,7 +1722,7 @@ const despesas = [
   {
     id: 216,
     nome: "telefone",
-    valor: 133,
+    valor: 255,
     dataVencimento: "14-11-2022",
     dataPagamento: "14-11-2022",
     tipoDespesa: "fixa"
@@ -1730,7 +1730,7 @@ const despesas = [
   {
     id: 217,
     nome: "aluguel",
-    valor: 3833,
+    valor: 6335,
     dataVencimento: "17-11-2022",
     dataPagamento: "17-11-2022",
     tipoDespesa: "fixa"
@@ -1738,7 +1738,7 @@ const despesas = [
   {
     id: 218,
     nome: "condomínio",
-    valor: 727,
+    valor: 1496,
     dataVencimento: "20-11-2022",
     dataPagamento: "20-11-2022",
     tipoDespesa: "fixa"
@@ -1746,7 +1746,7 @@ const despesas = [
   {
     id: 219,
     nome: "serviço de limpeza",
-    valor: 727,
+    valor: 1195,
     dataVencimento: "23-11-2022",
     dataPagamento: "23-11-2022",
     tipoDespesa: "fixa"
@@ -1754,7 +1754,7 @@ const despesas = [
   {
     id: 220,
     nome: "seguro patrimonial",
-    valor: 306,
+    valor: 565,
     dataVencimento: "26-11-2022",
     dataPagamento: "26-11-2022",
     tipoDespesa: "fixa"
@@ -1762,7 +1762,7 @@ const despesas = [
   {
     id: 221,
     nome: "licença de antivírus",
-    valor: 110,
+    valor: 2069,
     dataVencimento: "29-11-2022",
     dataPagamento: "29-11-2022",
     tipoDespesa: "fixa"
@@ -1770,7 +1770,7 @@ const despesas = [
   {
     id: 222,
     nome: "luz",
-    valor: 1265,
+    valor: 3377,
     dataVencimento: "05-12-2022",
     dataPagamento: "05-12-2022",
     tipoDespesa: "fixa"
@@ -1778,7 +1778,7 @@ const despesas = [
   {
     id: 223,
     nome: "água",
-    valor: 302,
+    valor: 600,
     dataVencimento: "08-12-2022",
     dataPagamento: "08-12-2022",
     tipoDespesa: "fixa"
@@ -1786,7 +1786,7 @@ const despesas = [
   {
     id: 224,
     nome: "internet",
-    valor: 278,
+    valor: 925,
     dataVencimento: "11-12-2022",
     dataPagamento: "11-12-2022",
     tipoDespesa: "fixa"
@@ -1794,7 +1794,7 @@ const despesas = [
   {
     id: 225,
     nome: "telefone",
-    valor: 129,
+    valor: 261,
     dataVencimento: "14-12-2022",
     dataPagamento: "14-12-2022",
     tipoDespesa: "fixa"
@@ -1802,7 +1802,7 @@ const despesas = [
   {
     id: 226,
     nome: "aluguel",
-    valor: 3790,
+    valor: 6347,
     dataVencimento: "17-12-2022",
     dataPagamento: "17-12-2022",
     tipoDespesa: "fixa"
@@ -1810,7 +1810,7 @@ const despesas = [
   {
     id: 227,
     nome: "condomínio",
-    valor: 887,
+    valor: 1492,
     dataVencimento: "20-12-2022",
     dataPagamento: "20-12-2022",
     tipoDespesa: "fixa"
@@ -1818,7 +1818,7 @@ const despesas = [
   {
     id: 228,
     nome: "serviço de limpeza",
-    valor: 721,
+    valor: 1207,
     dataVencimento: "23-12-2022",
     dataPagamento: "23-12-2022",
     tipoDespesa: "fixa"
@@ -1826,7 +1826,7 @@ const despesas = [
   {
     id: 229,
     nome: "seguro patrimonial",
-    valor: 295,
+    valor: 553,
     dataVencimento: "26-12-2022",
     dataPagamento: "26-12-2022",
     tipoDespesa: "fixa"
@@ -1834,7 +1834,7 @@ const despesas = [
   {
     id: 230,
     nome: "licença de antivírus",
-    valor: 100,
+    valor: 2085,
     dataVencimento: "29-12-2022",
     dataPagamento: "29-12-2022",
     tipoDespesa: "fixa"
@@ -1842,7 +1842,7 @@ const despesas = [
   {
     id: 231,
     nome: "luz",
-    valor: 1260,
+    valor: 3259,
     dataVencimento: "05-01-2023",
     dataPagamento: "05-01-2023",
     tipoDespesa: "fixa"
@@ -1850,7 +1850,7 @@ const despesas = [
   {
     id: 232,
     nome: "água",
-    valor: 300,
+    valor: 595,
     dataVencimento: "08-01-2023",
     dataPagamento: "08-01-2023",
     tipoDespesa: "fixa"
@@ -1858,7 +1858,7 @@ const despesas = [
   {
     id: 233,
     nome: "internet",
-    valor: 259,
+    valor: 933,
     dataVencimento: "11-01-2023",
     dataPagamento: "11-01-2023",
     tipoDespesa: "fixa"
@@ -1866,7 +1866,7 @@ const despesas = [
   {
     id: 234,
     nome: "telefone",
-    valor: 131,
+    valor: 260,
     dataVencimento: "14-01-2023",
     dataPagamento: "14-01-2023",
     tipoDespesa: "fixa"
@@ -1874,7 +1874,7 @@ const despesas = [
   {
     id: 235,
     nome: "aluguel",
-    valor: 3415,
+    valor: 6297,
     dataVencimento: "17-01-2023",
     dataPagamento: "17-01-2023",
     tipoDespesa: "fixa"
@@ -1882,7 +1882,7 @@ const despesas = [
   {
     id: 236,
     nome: "condomínio",
-    valor: 866,
+    valor: 1491,
     dataVencimento: "20-01-2023",
     dataPagamento: "20-01-2023",
     tipoDespesa: "fixa"
@@ -1890,7 +1890,7 @@ const despesas = [
   {
     id: 237,
     nome: "serviço de limpeza",
-    valor: 644,
+    valor: 1208,
     dataVencimento: "23-01-2023",
     dataPagamento: "23-01-2023",
     tipoDespesa: "fixa"
@@ -1898,7 +1898,7 @@ const despesas = [
   {
     id: 238,
     nome: "seguro patrimonial",
-    valor: 256,
+    valor: 558,
     dataVencimento: "26-01-2023",
     dataPagamento: "26-01-2023",
     tipoDespesa: "fixa"
@@ -1906,7 +1906,7 @@ const despesas = [
   {
     id: 239,
     nome: "licença de antivírus",
-    valor: 112,
+    valor: 2049,
     dataVencimento: "29-01-2023",
     dataPagamento: "29-01-2023",
     tipoDespesa: "fixa"
@@ -1914,7 +1914,7 @@ const despesas = [
   {
     id: 240,
     nome: "compra de materiais escolares",
-    valor: 1035,
+    valor: 920,
     dataVencimento: "15-01-2023",
     dataPagamento: "15-01-2023",
     tipoDespesa: "variável"
@@ -1922,7 +1922,7 @@ const despesas = [
   {
     id: 241,
     nome: "manutenção predial",
-    valor: 1263,
+    valor: 1470,
     dataVencimento: "20-01-2023",
     dataPagamento: "20-01-2023",
     tipoDespesa: "variável"
@@ -1930,7 +1930,7 @@ const despesas = [
   {
     id: 242,
     nome: "compra de equipamentos",
-    valor: 2569,
+    valor: 3207,
     dataVencimento: "25-01-2023",
     dataPagamento: "25-01-2023",
     tipoDespesa: "variável"
@@ -1938,7 +1938,7 @@ const despesas = [
   {
     id: 243,
     nome: "luz",
-    valor: 1256,
+    valor: 3310,
     dataVencimento: "05-02-2023",
     dataPagamento: "05-02-2023",
     tipoDespesa: "fixa"
@@ -1946,7 +1946,7 @@ const despesas = [
   {
     id: 244,
     nome: "água",
-    valor: 356,
+    valor: 592,
     dataVencimento: "08-02-2023",
     dataPagamento: "08-02-2023",
     tipoDespesa: "fixa"
@@ -1954,7 +1954,7 @@ const despesas = [
   {
     id: 245,
     nome: "internet",
-    valor: 260,
+    valor: 947,
     dataVencimento: "11-02-2023",
     dataPagamento: "11-02-2023",
     tipoDespesa: "fixa"
@@ -1962,7 +1962,7 @@ const despesas = [
   {
     id: 246,
     nome: "telefone",
-    valor: 152,
+    valor: 253,
     dataVencimento: "14-02-2023",
     dataPagamento: "14-02-2023",
     tipoDespesa: "fixa"
@@ -1970,7 +1970,7 @@ const despesas = [
   {
     id: 247,
     nome: "aluguel",
-    valor: 3421,
+    valor: 6296,
     dataVencimento: "17-02-2023",
     dataPagamento: "17-02-2023",
     tipoDespesa: "fixa"
@@ -1978,7 +1978,7 @@ const despesas = [
   {
     id: 248,
     nome: "condomínio",
-    valor: 850,
+    valor: 1481,
     dataVencimento: "20-02-2023",
     dataPagamento: "20-02-2023",
     tipoDespesa: "fixa"
@@ -1986,7 +1986,7 @@ const despesas = [
   {
     id: 249,
     nome: "serviço de limpeza",
-    valor: 603,
+    valor: 1234,
     dataVencimento: "23-02-2023",
     dataPagamento: "23-02-2023",
     tipoDespesa: "fixa"
@@ -1994,7 +1994,7 @@ const despesas = [
   {
     id: 250,
     nome: "seguro patrimonial",
-    valor: 284,
+    valor: 552,
     dataVencimento: "26-02-2023",
     dataPagamento: "26-02-2023",
     tipoDespesa: "fixa"
@@ -2002,7 +2002,7 @@ const despesas = [
   {
     id: 251,
     nome: "licença de antivírus",
-    valor: 109,
+    valor: 2019,
     dataVencimento: "29-02-2023",
     dataPagamento: "29-02-2023",
     tipoDespesa: "fixa"
@@ -2010,7 +2010,7 @@ const despesas = [
   {
     id: 252,
     nome: "luz",
-    valor: 1312,
+    valor: 3342,
     dataVencimento: "05-03-2023",
     dataPagamento: "05-03-2023",
     tipoDespesa: "fixa"
@@ -2018,7 +2018,7 @@ const despesas = [
   {
     id: 253,
     nome: "água",
-    valor: 333,
+    valor: 581,
     dataVencimento: "08-03-2023",
     dataPagamento: "08-03-2023",
     tipoDespesa: "fixa"
@@ -2026,7 +2026,7 @@ const despesas = [
   {
     id: 254,
     nome: "internet",
-    valor: 259,
+    valor: 927,
     dataVencimento: "11-03-2023",
     dataPagamento: "11-03-2023",
     tipoDespesa: "fixa"
@@ -2034,7 +2034,7 @@ const despesas = [
   {
     id: 255,
     nome: "telefone",
-    valor: 152,
+    valor: 262,
     dataVencimento: "14-03-2023",
     dataPagamento: "14-03-2023",
     tipoDespesa: "fixa"
@@ -2042,7 +2042,7 @@ const despesas = [
   {
     id: 256,
     nome: "aluguel",
-    valor: 3254,
+    valor: 6432,
     dataVencimento: "17-03-2023",
     dataPagamento: "17-03-2023",
     tipoDespesa: "fixa"
@@ -2050,7 +2050,7 @@ const despesas = [
   {
     id: 257,
     nome: "condomínio",
-    valor: 704,
+    valor: 1451,
     dataVencimento: "20-03-2023",
     dataPagamento: "20-03-2023",
     tipoDespesa: "fixa"
@@ -2058,7 +2058,7 @@ const despesas = [
   {
     id: 258,
     nome: "serviço de limpeza",
-    valor: 558,
+    valor: 1226,
     dataVencimento: "23-03-2023",
     dataPagamento: "23-03-2023",
     tipoDespesa: "fixa"
@@ -2066,7 +2066,7 @@ const despesas = [
   {
     id: 259,
     nome: "seguro patrimonial",
-    valor: 327,
+    valor: 563,
     dataVencimento: "26-03-2023",
     dataPagamento: "26-03-2023",
     tipoDespesa: "fixa"
@@ -2074,7 +2074,7 @@ const despesas = [
   {
     id: 260,
     nome: "licença de antivírus",
-    valor: 122,
+    valor: 2041,
     dataVencimento: "29-03-2023",
     dataPagamento: "29-03-2023",
     tipoDespesa: "fixa"
@@ -2082,7 +2082,7 @@ const despesas = [
   {
     id: 261,
     nome: "luz",
-    valor: 1285,
+    valor: 3322,
     dataVencimento: "05-04-2023",
     dataPagamento: "05-04-2023",
     tipoDespesa: "fixa"
@@ -2090,7 +2090,7 @@ const despesas = [
   {
     id: 262,
     nome: "água",
-    valor: 272,
+    valor: 599,
     dataVencimento: "08-04-2023",
     dataPagamento: "08-04-2023",
     tipoDespesa: "fixa"
@@ -2098,7 +2098,7 @@ const despesas = [
   {
     id: 263,
     nome: "internet",
-    valor: 301,
+    valor: 900,
     dataVencimento: "11-04-2023",
     dataPagamento: "11-04-2023",
     tipoDespesa: "fixa"
@@ -2106,7 +2106,7 @@ const despesas = [
   {
     id: 264,
     nome: "telefone",
-    valor: 156,
+    valor: 262,
     dataVencimento: "14-04-2023",
     dataPagamento: "14-04-2023",
     tipoDespesa: "fixa"
@@ -2114,7 +2114,7 @@ const despesas = [
   {
     id: 265,
     nome: "aluguel",
-    valor: 3157,
+    valor: 6310,
     dataVencimento: "17-04-2023",
     dataPagamento: "17-04-2023",
     tipoDespesa: "fixa"
@@ -2122,7 +2122,7 @@ const despesas = [
   {
     id: 266,
     nome: "condomínio",
-    valor: 736,
+    valor: 1516,
     dataVencimento: "20-04-2023",
     dataPagamento: "20-04-2023",
     tipoDespesa: "fixa"
@@ -2130,7 +2130,7 @@ const despesas = [
   {
     id: 267,
     nome: "serviço de limpeza",
-    valor: 581,
+    valor: 1233,
     dataVencimento: "23-04-2023",
     dataPagamento: "23-04-2023",
     tipoDespesa: "fixa"
@@ -2138,7 +2138,7 @@ const despesas = [
   {
     id: 268,
     nome: "seguro patrimonial",
-    valor: 278,
+    valor: 560,
     dataVencimento: "26-04-2023",
     dataPagamento: "26-04-2023",
     tipoDespesa: "fixa"
@@ -2146,7 +2146,7 @@ const despesas = [
   {
     id: 269,
     nome: "licença de antivírus",
-    valor: 94,
+    valor: 2070,
     dataVencimento: "29-04-2023",
     dataPagamento: "29-04-2023",
     tipoDespesa: "fixa"
@@ -2154,7 +2154,7 @@ const despesas = [
   {
     id: 270,
     nome: "compra de materiais escolares",
-    valor: 1025,
+    valor: 1129,
     dataVencimento: "15-04-2023",
     dataPagamento: "15-04-2023",
     tipoDespesa: "variável"
@@ -2162,7 +2162,7 @@ const despesas = [
   {
     id: 271,
     nome: "luz",
-    valor: 1215,
+    valor: 3262,
     dataVencimento: "05-05-2023",
     dataPagamento: "05-05-2023",
     tipoDespesa: "fixa"
@@ -2170,7 +2170,7 @@ const despesas = [
   {
     id: 272,
     nome: "água",
-    valor: 308,
+    valor: 591,
     dataVencimento: "08-05-2023",
     dataPagamento: "08-05-2023",
     tipoDespesa: "fixa"
@@ -2178,7 +2178,7 @@ const despesas = [
   {
     id: 273,
     nome: "internet",
-    valor: 264,
+    valor: 930,
     dataVencimento: "11-05-2023",
     dataPagamento: "11-05-2023",
     tipoDespesa: "fixa"
@@ -2186,7 +2186,7 @@ const despesas = [
   {
     id: 274,
     nome: "telefone",
-    valor: 159,
+    valor: 253,
     dataVencimento: "14-05-2023",
     dataPagamento: "14-05-2023",
     tipoDespesa: "fixa"
@@ -2194,7 +2194,7 @@ const despesas = [
   {
     id: 275,
     nome: "aluguel",
-    valor: 3203,
+    valor: 6211,
     dataVencimento: "17-05-2023",
     dataPagamento: "17-05-2023",
     tipoDespesa: "fixa"
@@ -2202,7 +2202,7 @@ const despesas = [
   {
     id: 276,
     nome: "condomínio",
-    valor: 837,
+    valor: 1504,
     dataVencimento: "20-05-2023",
     dataPagamento: "20-05-2023",
     tipoDespesa: "fixa"
@@ -2210,7 +2210,7 @@ const despesas = [
   {
     id: 277,
     nome: "serviço de limpeza",
-    valor: 580,
+    valor: 1220,
     dataVencimento: "23-05-2023",
     dataPagamento: "23-05-2023",
     tipoDespesa: "fixa"
@@ -2218,7 +2218,7 @@ const despesas = [
   {
     id: 278,
     nome: "seguro patrimonial",
-    valor: 308,
+    valor: 562,
     dataVencimento: "26-05-2023",
     dataPagamento: "26-05-2023",
     tipoDespesa: "fixa"
@@ -2226,7 +2226,7 @@ const despesas = [
   {
     id: 279,
     nome: "licença de antivírus",
-    valor: 109,
+    valor: 2018,
     dataVencimento: "29-05-2023",
     dataPagamento: "29-05-2023",
     tipoDespesa: "fixa"
@@ -2234,7 +2234,7 @@ const despesas = [
   {
     id: 280,
     nome: "luz",
-    valor: 1208,
+    valor: 3389,
     dataVencimento: "05-06-2023",
     dataPagamento: "05-06-2023",
     tipoDespesa: "fixa"
@@ -2242,7 +2242,7 @@ const despesas = [
   {
     id: 281,
     nome: "água",
-    valor: 297,
+    valor: 599,
     dataVencimento: "08-06-2023",
     dataPagamento: "08-06-2023",
     tipoDespesa: "fixa"
@@ -2250,7 +2250,7 @@ const despesas = [
   {
     id: 282,
     nome: "internet",
-    valor: 278,
+    valor: 935,
     dataVencimento: "11-06-2023",
     dataPagamento: "11-06-2023",
     tipoDespesa: "fixa"
@@ -2258,7 +2258,7 @@ const despesas = [
   {
     id: 283,
     nome: "telefone",
-    valor: 132,
+    valor: 255,
     dataVencimento: "14-06-2023",
     dataPagamento: "14-06-2023",
     tipoDespesa: "fixa"
@@ -2266,7 +2266,7 @@ const despesas = [
   {
     id: 284,
     nome: "aluguel",
-    valor: 3878,
+    valor: 6240,
     dataVencimento: "17-06-2023",
     dataPagamento: "17-06-2023",
     tipoDespesa: "fixa"
@@ -2274,7 +2274,7 @@ const despesas = [
   {
     id: 285,
     nome: "condomínio",
-    valor: 900,
+    valor: 1467,
     dataVencimento: "20-06-2023",
     dataPagamento: "20-06-2023",
     tipoDespesa: "fixa"
@@ -2282,7 +2282,7 @@ const despesas = [
   {
     id: 286,
     nome: "serviço de limpeza",
-    valor: 702,
+    valor: 1204,
     dataVencimento: "23-06-2023",
     dataPagamento: "23-06-2023",
     tipoDespesa: "fixa"
@@ -2290,7 +2290,7 @@ const despesas = [
   {
     id: 287,
     nome: "seguro patrimonial",
-    valor: 261,
+    valor: 546,
     dataVencimento: "26-06-2023",
     dataPagamento: "26-06-2023",
     tipoDespesa: "fixa"
@@ -2298,7 +2298,7 @@ const despesas = [
   {
     id: 288,
     nome: "licença de antivírus",
-    valor: 121,
+    valor: 2017,
     dataVencimento: "29-06-2023",
     dataPagamento: "29-06-2023",
     tipoDespesa: "fixa"
@@ -2306,7 +2306,7 @@ const despesas = [
   {
     id: 289,
     nome: "luz",
-    valor: 1135,
+    valor: 3296,
     dataVencimento: "05-07-2023",
     dataPagamento: "05-07-2023",
     tipoDespesa: "fixa"
@@ -2314,7 +2314,7 @@ const despesas = [
   {
     id: 290,
     nome: "água",
-    valor: 326,
+    valor: 579,
     dataVencimento: "08-07-2023",
     dataPagamento: "08-07-2023",
     tipoDespesa: "fixa"
@@ -2322,7 +2322,7 @@ const despesas = [
   {
     id: 291,
     nome: "internet",
-    valor: 303,
+    valor: 922,
     dataVencimento: "11-07-2023",
     dataPagamento: "11-07-2023",
     tipoDespesa: "fixa"
@@ -2330,7 +2330,7 @@ const despesas = [
   {
     id: 292,
     nome: "telefone",
-    valor: 146,
+    valor: 264,
     dataVencimento: "14-07-2023",
     dataPagamento: "14-07-2023",
     tipoDespesa: "fixa"
@@ -2338,7 +2338,7 @@ const despesas = [
   {
     id: 293,
     nome: "aluguel",
-    valor: 3906,
+    valor: 6273,
     dataVencimento: "17-07-2023",
     dataPagamento: "17-07-2023",
     tipoDespesa: "fixa"
@@ -2346,7 +2346,7 @@ const despesas = [
   {
     id: 294,
     nome: "condomínio",
-    valor: 729,
+    valor: 1445,
     dataVencimento: "20-07-2023",
     dataPagamento: "20-07-2023",
     tipoDespesa: "fixa"
@@ -2354,7 +2354,7 @@ const despesas = [
   {
     id: 295,
     nome: "serviço de limpeza",
-    valor: 590,
+    valor: 1221,
     dataVencimento: "23-07-2023",
     dataPagamento: "23-07-2023",
     tipoDespesa: "fixa"
@@ -2362,7 +2362,7 @@ const despesas = [
   {
     id: 296,
     nome: "seguro patrimonial",
-    valor: 281,
+    valor: 561,
     dataVencimento: "26-07-2023",
     dataPagamento: "26-07-2023",
     tipoDespesa: "fixa"
@@ -2370,7 +2370,7 @@ const despesas = [
   {
     id: 297,
     nome: "licença de antivírus",
-    valor: 94,
+    valor: 2051,
     dataVencimento: "29-07-2023",
     dataPagamento: "29-07-2023",
     tipoDespesa: "fixa"
@@ -2378,7 +2378,7 @@ const despesas = [
   {
     id: 298,
     nome: "compra de materiais escolares",
-    valor: 835,
+    valor: 1006,
     dataVencimento: "15-07-2023",
     dataPagamento: "15-07-2023",
     tipoDespesa: "variável"
@@ -2386,7 +2386,7 @@ const despesas = [
   {
     id: 299,
     nome: "manutenção predial",
-    valor: 1756,
+    valor: 1799,
     dataVencimento: "20-07-2023",
     dataPagamento: "20-07-2023",
     tipoDespesa: "variável"
@@ -2394,7 +2394,7 @@ const despesas = [
   {
     id: 300,
     nome: "luz",
-    valor: 1286,
+    valor: 3263,
     dataVencimento: "05-08-2023",
     dataPagamento: "05-08-2023",
     tipoDespesa: "fixa"
@@ -2402,7 +2402,7 @@ const despesas = [
   {
     id: 301,
     nome: "água",
-    valor: 328,
+    valor: 605,
     dataVencimento: "08-08-2023",
     dataPagamento: "08-08-2023",
     tipoDespesa: "fixa"
@@ -2410,7 +2410,7 @@ const despesas = [
   {
     id: 302,
     nome: "internet",
-    valor: 274,
+    valor: 949,
     dataVencimento: "11-08-2023",
     dataPagamento: "11-08-2023",
     tipoDespesa: "fixa"
@@ -2418,7 +2418,7 @@ const despesas = [
   {
     id: 303,
     nome: "telefone",
-    valor: 121,
+    valor: 264,
     dataVencimento: "14-08-2023",
     dataPagamento: "14-08-2023",
     tipoDespesa: "fixa"
@@ -2426,7 +2426,7 @@ const despesas = [
   {
     id: 304,
     nome: "aluguel",
-    valor: 3886,
+    valor: 6405,
     dataVencimento: "17-08-2023",
     dataPagamento: "17-08-2023",
     tipoDespesa: "fixa"
@@ -2434,7 +2434,7 @@ const despesas = [
   {
     id: 305,
     nome: "condomínio",
-    valor: 765,
+    valor: 1488,
     dataVencimento: "20-08-2023",
     dataPagamento: "20-08-2023",
     tipoDespesa: "fixa"
@@ -2442,7 +2442,7 @@ const despesas = [
   {
     id: 306,
     nome: "serviço de limpeza",
-    valor: 600,
+    valor: 1194,
     dataVencimento: "23-08-2023",
     dataPagamento: "23-08-2023",
     tipoDespesa: "fixa"
@@ -2450,7 +2450,7 @@ const despesas = [
   {
     id: 307,
     nome: "seguro patrimonial",
-    valor: 318,
+    valor: 553,
     dataVencimento: "26-08-2023",
     dataPagamento: "26-08-2023",
     tipoDespesa: "fixa"
@@ -2458,7 +2458,7 @@ const despesas = [
   {
     id: 308,
     nome: "licença de antivírus",
-    valor: 107,
+    valor: 2052,
     dataVencimento: "29-08-2023",
     dataPagamento: "29-08-2023",
     tipoDespesa: "fixa"
@@ -2466,7 +2466,7 @@ const despesas = [
   {
     id: 309,
     nome: "luz",
-    valor: 1083,
+    valor: 3341,
     dataVencimento: "05-09-2023",
     dataPagamento: "05-09-2023",
     tipoDespesa: "fixa"
@@ -2474,7 +2474,7 @@ const despesas = [
   {
     id: 310,
     nome: "água",
-    valor: 360,
+    valor: 586,
     dataVencimento: "08-09-2023",
     dataPagamento: "08-09-2023",
     tipoDespesa: "fixa"
@@ -2482,7 +2482,7 @@ const despesas = [
   {
     id: 311,
     nome: "internet",
-    valor: 320,
+    valor: 903,
     dataVencimento: "11-09-2023",
     dataPagamento: "11-09-2023",
     tipoDespesa: "fixa"
@@ -2490,7 +2490,7 @@ const despesas = [
   {
     id: 312,
     nome: "telefone",
-    valor: 157,
+    valor: 262,
     dataVencimento: "14-09-2023",
     dataPagamento: "14-09-2023",
     tipoDespesa: "fixa"
@@ -2498,7 +2498,7 @@ const despesas = [
   {
     id: 313,
     nome: "aluguel",
-    valor: 3904,
+    valor: 6163,
     dataVencimento: "17-09-2023",
     dataPagamento: "17-09-2023",
     tipoDespesa: "fixa"
@@ -2506,7 +2506,7 @@ const despesas = [
   {
     id: 314,
     nome: "condomínio",
-    valor: 827,
+    valor: 1473,
     dataVencimento: "20-09-2023",
     dataPagamento: "20-09-2023",
     tipoDespesa: "fixa"
@@ -2514,7 +2514,7 @@ const despesas = [
   {
     id: 315,
     nome: "serviço de limpeza",
-    valor: 662,
+    valor: 1223,
     dataVencimento: "23-09-2023",
     dataPagamento: "23-09-2023",
     tipoDespesa: "fixa"
@@ -2522,7 +2522,7 @@ const despesas = [
   {
     id: 316,
     nome: "seguro patrimonial",
-    valor: 275,
+    valor: 564,
     dataVencimento: "26-09-2023",
     dataPagamento: "26-09-2023",
     tipoDespesa: "fixa"
@@ -2530,7 +2530,7 @@ const despesas = [
   {
     id: 317,
     nome: "licença de antivírus",
-    valor: 110,
+    valor: 2043,
     dataVencimento: "29-09-2023",
     dataPagamento: "29-09-2023",
     tipoDespesa: "fixa"
@@ -2538,7 +2538,7 @@ const despesas = [
   {
     id: 318,
     nome: "luz",
-    valor: 1376,
+    valor: 3401,
     dataVencimento: "05-10-2023",
     dataPagamento: "05-10-2023",
     tipoDespesa: "fixa"
@@ -2546,7 +2546,7 @@ const despesas = [
   {
     id: 319,
     nome: "água",
-    valor: 299,
+    valor: 602,
     dataVencimento: "08-10-2023",
     dataPagamento: "08-10-2023",
     tipoDespesa: "fixa"
@@ -2554,7 +2554,7 @@ const despesas = [
   {
     id: 320,
     nome: "internet",
-    valor: 299,
+    valor: 921,
     dataVencimento: "11-10-2023",
     dataPagamento: "11-10-2023",
     tipoDespesa: "fixa"
@@ -2562,7 +2562,7 @@ const despesas = [
   {
     id: 321,
     nome: "telefone",
-    valor: 140,
+    valor: 253,
     dataVencimento: "14-10-2023",
     dataPagamento: "14-10-2023",
     tipoDespesa: "fixa"
@@ -2570,7 +2570,7 @@ const despesas = [
   {
     id: 322,
     nome: "aluguel",
-    valor: 3092,
+    valor: 6355,
     dataVencimento: "17-10-2023",
     dataPagamento: "17-10-2023",
     tipoDespesa: "fixa"
@@ -2578,7 +2578,7 @@ const despesas = [
   {
     id: 323,
     nome: "condomínio",
-    valor: 838,
+    valor: 1452,
     dataVencimento: "20-10-2023",
     dataPagamento: "20-10-2023",
     tipoDespesa: "fixa"
@@ -2586,7 +2586,7 @@ const despesas = [
   {
     id: 324,
     nome: "serviço de limpeza",
-    valor: 666,
+    valor: 1231,
     dataVencimento: "23-10-2023",
     dataPagamento: "23-10-2023",
     tipoDespesa: "fixa"
@@ -2594,7 +2594,7 @@ const despesas = [
   {
     id: 325,
     nome: "seguro patrimonial",
-    valor: 277,
+    valor: 568,
     dataVencimento: "26-10-2023",
     dataPagamento: "26-10-2023",
     tipoDespesa: "fixa"
@@ -2602,7 +2602,7 @@ const despesas = [
   {
     id: 326,
     nome: "licença de antivírus",
-    valor: 121,
+    valor: 2050,
     dataVencimento: "29-10-2023",
     dataPagamento: "29-10-2023",
     tipoDespesa: "fixa"
@@ -2610,7 +2610,7 @@ const despesas = [
   {
     id: 327,
     nome: "compra de materiais escolares",
-    valor: 1016,
+    valor: 1039,
     dataVencimento: "15-10-2023",
     dataPagamento: "15-10-2023",
     tipoDespesa: "variável"
@@ -2618,7 +2618,7 @@ const despesas = [
   {
     id: 328,
     nome: "luz",
-    valor: 1365,
+    valor: 3372,
     dataVencimento: "05-11-2023",
     dataPagamento: "05-11-2023",
     tipoDespesa: "fixa"
@@ -2626,7 +2626,7 @@ const despesas = [
   {
     id: 329,
     nome: "água",
-    valor: 336,
+    valor: 601,
     dataVencimento: "08-11-2023",
     dataPagamento: "08-11-2023",
     tipoDespesa: "fixa"
@@ -2634,7 +2634,7 @@ const despesas = [
   {
     id: 330,
     nome: "internet",
-    valor: 250,
+    valor: 901,
     dataVencimento: "11-11-2023",
     dataPagamento: "11-11-2023",
     tipoDespesa: "fixa"
@@ -2642,7 +2642,7 @@ const despesas = [
   {
     id: 331,
     nome: "telefone",
-    valor: 128,
+    valor: 253,
     dataVencimento: "14-11-2023",
     dataPagamento: "14-11-2023",
     tipoDespesa: "fixa"
@@ -2650,7 +2650,7 @@ const despesas = [
   {
     id: 332,
     nome: "aluguel",
-    valor: 3131,
+    valor: 6188,
     dataVencimento: "17-11-2023",
     dataPagamento: "17-11-2023",
     tipoDespesa: "fixa"
@@ -2658,7 +2658,7 @@ const despesas = [
   {
     id: 333,
     nome: "condomínio",
-    valor: 730,
+    valor: 1451,
     dataVencimento: "20-11-2023",
     dataPagamento: "20-11-2023",
     tipoDespesa: "fixa"
@@ -2666,7 +2666,7 @@ const despesas = [
   {
     id: 334,
     nome: "serviço de limpeza",
-    valor: 643,
+    valor: 1214,
     dataVencimento: "23-11-2023",
     dataPagamento: "23-11-2023",
     tipoDespesa: "fixa"
@@ -2674,7 +2674,7 @@ const despesas = [
   {
     id: 335,
     nome: "seguro patrimonial",
-    valor: 259,
+    valor: 567,
     dataVencimento: "26-11-2023",
     dataPagamento: "26-11-2023",
     tipoDespesa: "fixa"
@@ -2682,7 +2682,7 @@ const despesas = [
   {
     id: 336,
     nome: "licença de antivírus",
-    valor: 123,
+    valor: 2078,
     dataVencimento: "29-11-2023",
     dataPagamento: "29-11-2023",
     tipoDespesa: "fixa"
@@ -2690,7 +2690,7 @@ const despesas = [
   {
     id: 337,
     nome: "luz",
-    valor: 1068,
+    valor: 3252,
     dataVencimento: "05-12-2023",
     dataPagamento: "05-12-2023",
     tipoDespesa: "fixa"
@@ -2698,7 +2698,7 @@ const despesas = [
   {
     id: 338,
     nome: "água",
-    valor: 276,
+    valor: 586,
     dataVencimento: "08-12-2023",
     dataPagamento: "08-12-2023",
     tipoDespesa: "fixa"
@@ -2706,7 +2706,7 @@ const despesas = [
   {
     id: 339,
     nome: "internet",
-    valor: 307,
+    valor: 940,
     dataVencimento: "11-12-2023",
     dataPagamento: "11-12-2023",
     tipoDespesa: "fixa"
@@ -2714,7 +2714,7 @@ const despesas = [
   {
     id: 340,
     nome: "telefone",
-    valor: 153,
+    valor: 259,
     dataVencimento: "14-12-2023",
     dataPagamento: "14-12-2023",
     tipoDespesa: "fixa"
@@ -2722,7 +2722,7 @@ const despesas = [
   {
     id: 341,
     nome: "aluguel",
-    valor: 3082,
+    valor: 6240,
     dataVencimento: "17-12-2023",
     dataPagamento: "17-12-2023",
     tipoDespesa: "fixa"
@@ -2730,7 +2730,7 @@ const despesas = [
   {
     id: 342,
     nome: "condomínio",
-    valor: 690,
+    valor: 1507,
     dataVencimento: "20-12-2023",
     dataPagamento: "20-12-2023",
     tipoDespesa: "fixa"
@@ -2738,7 +2738,7 @@ const despesas = [
   {
     id: 343,
     nome: "serviço de limpeza",
-    valor: 631,
+    valor: 1218,
     dataVencimento: "23-12-2023",
     dataPagamento: "23-12-2023",
     tipoDespesa: "fixa"
@@ -2746,7 +2746,7 @@ const despesas = [
   {
     id: 344,
     nome: "seguro patrimonial",
-    valor: 341,
+    valor: 548,
     dataVencimento: "26-12-2023",
     dataPagamento: "26-12-2023",
     tipoDespesa: "fixa"
@@ -2754,7 +2754,7 @@ const despesas = [
   {
     id: 345,
     nome: "licença de antivírus",
-    valor: 112,
+    valor: 2078,
     dataVencimento: "29-12-2023",
     dataPagamento: "29-12-2023",
     tipoDespesa: "fixa"
@@ -2762,7 +2762,7 @@ const despesas = [
   {
     id: 346,
     nome: "luz",
-    valor: 1261,
+    valor: 3304,
     dataVencimento: "05-01-2024",
     dataPagamento: "05-01-2024",
     tipoDespesa: "fixa"
@@ -2770,7 +2770,7 @@ const despesas = [
   {
     id: 347,
     nome: "água",
-    valor: 281,
+    valor: 576,
     dataVencimento: "08-01-2024",
     dataPagamento: "08-01-2024",
     tipoDespesa: "fixa"
@@ -2778,7 +2778,7 @@ const despesas = [
   {
     id: 348,
     nome: "internet",
-    valor: 312,
+    valor: 931,
     dataVencimento: "11-01-2024",
     dataPagamento: "11-01-2024",
     tipoDespesa: "fixa"
@@ -2786,7 +2786,7 @@ const despesas = [
   {
     id: 349,
     nome: "telefone",
-    valor: 136,
+    valor: 260,
     dataVencimento: "14-01-2024",
     dataPagamento: "14-01-2024",
     tipoDespesa: "fixa"
@@ -2794,7 +2794,7 @@ const despesas = [
   {
     id: 350,
     nome: "aluguel",
-    valor: 2955,
+    valor: 6376,
     dataVencimento: "17-01-2024",
     dataPagamento: "17-01-2024",
     tipoDespesa: "fixa"
@@ -2802,7 +2802,7 @@ const despesas = [
   {
     id: 351,
     nome: "condomínio",
-    valor: 895,
+    valor: 1487,
     dataVencimento: "20-01-2024",
     dataPagamento: "20-01-2024",
     tipoDespesa: "fixa"
@@ -2810,7 +2810,7 @@ const despesas = [
   {
     id: 352,
     nome: "serviço de limpeza",
-    valor: 565,
+    valor: 1213,
     dataVencimento: "23-01-2024",
     dataPagamento: "23-01-2024",
     tipoDespesa: "fixa"
@@ -2818,7 +2818,7 @@ const despesas = [
   {
     id: 353,
     nome: "seguro patrimonial",
-    valor: 310,
+    valor: 546,
     dataVencimento: "26-01-2024",
     dataPagamento: "26-01-2024",
     tipoDespesa: "fixa"
@@ -2826,7 +2826,7 @@ const despesas = [
   {
     id: 354,
     nome: "licença de antivírus",
-    valor: 102,
+    valor: 2044,
     dataVencimento: "29-01-2024",
     dataPagamento: "29-01-2024",
     tipoDespesa: "fixa"
@@ -2842,7 +2842,7 @@ const despesas = [
   {
     id: 356,
     nome: "manutenção predial",
-    valor: 1333,
+    valor: 1365,
     dataVencimento: "20-01-2024",
     dataPagamento: "20-01-2024",
     tipoDespesa: "variável"
@@ -2850,7 +2850,7 @@ const despesas = [
   {
     id: 357,
     nome: "compra de equipamentos",
-    valor: 3063,
+    valor: 3605,
     dataVencimento: "25-01-2024",
     dataPagamento: "25-01-2024",
     tipoDespesa: "variável"
@@ -2858,7 +2858,7 @@ const despesas = [
   {
     id: 358,
     nome: "luz",
-    valor: 1243,
+    valor: 3321,
     dataVencimento: "05-02-2024",
     dataPagamento: "05-02-2024",
     tipoDespesa: "fixa"
@@ -2866,7 +2866,7 @@ const despesas = [
   {
     id: 359,
     nome: "água",
-    valor: 342,
+    valor: 596,
     dataVencimento: "08-02-2024",
     dataPagamento: "08-02-2024",
     tipoDespesa: "fixa"
@@ -2874,7 +2874,7 @@ const despesas = [
   {
     id: 360,
     nome: "internet",
-    valor: 317,
+    valor: 922,
     dataVencimento: "11-02-2024",
     dataPagamento: "11-02-2024",
     tipoDespesa: "fixa"
@@ -2882,7 +2882,7 @@ const despesas = [
   {
     id: 361,
     nome: "telefone",
-    valor: 121,
+    valor: 265,
     dataVencimento: "14-02-2024",
     dataPagamento: "14-02-2024",
     tipoDespesa: "fixa"
@@ -2890,7 +2890,7 @@ const despesas = [
   {
     id: 362,
     nome: "aluguel",
-    valor: 3333,
+    valor: 6263,
     dataVencimento: "17-02-2024",
     dataPagamento: "17-02-2024",
     tipoDespesa: "fixa"
@@ -2898,7 +2898,7 @@ const despesas = [
   {
     id: 363,
     nome: "condomínio",
-    valor: 761,
+    valor: 1442,
     dataVencimento: "20-02-2024",
     dataPagamento: "20-02-2024",
     tipoDespesa: "fixa"
@@ -2906,7 +2906,7 @@ const despesas = [
   {
     id: 364,
     nome: "serviço de limpeza",
-    valor: 671,
+    valor: 1216,
     dataVencimento: "23-02-2024",
     dataPagamento: "23-02-2024",
     tipoDespesa: "fixa"
@@ -2914,7 +2914,7 @@ const despesas = [
   {
     id: 365,
     nome: "seguro patrimonial",
-    valor: 332,
+    valor: 552,
     dataVencimento: "26-02-2024",
     dataPagamento: "26-02-2024",
     tipoDespesa: "fixa"
@@ -2922,7 +2922,7 @@ const despesas = [
   {
     id: 366,
     nome: "licença de antivírus",
-    valor: 110,
+    valor: 2046,
     dataVencimento: "29-02-2024",
     dataPagamento: "29-02-2024",
     tipoDespesa: "fixa"
@@ -2930,7 +2930,7 @@ const despesas = [
   {
     id: 367,
     nome: "luz",
-    valor: 1121,
+    valor: 3280,
     dataVencimento: "05-03-2024",
     dataPagamento: "05-03-2024",
     tipoDespesa: "fixa"
@@ -2938,7 +2938,7 @@ const despesas = [
   {
     id: 368,
     nome: "água",
-    valor: 334,
+    valor: 607,
     dataVencimento: "08-03-2024",
     dataPagamento: "08-03-2024",
     tipoDespesa: "fixa"
@@ -2946,7 +2946,7 @@ const despesas = [
   {
     id: 369,
     nome: "internet",
-    valor: 277,
+    valor: 921,
     dataVencimento: "11-03-2024",
     dataPagamento: "11-03-2024",
     tipoDespesa: "fixa"
@@ -2954,7 +2954,7 @@ const despesas = [
   {
     id: 370,
     nome: "telefone",
-    valor: 129,
+    valor: 261,
     dataVencimento: "14-03-2024",
     dataPagamento: "14-03-2024",
     tipoDespesa: "fixa"
@@ -2962,7 +2962,7 @@ const despesas = [
   {
     id: 371,
     nome: "aluguel",
-    valor: 3776,
+    valor: 6153,
     dataVencimento: "17-03-2024",
     dataPagamento: "17-03-2024",
     tipoDespesa: "fixa"
@@ -2970,7 +2970,7 @@ const despesas = [
   {
     id: 372,
     nome: "condomínio",
-    valor: 764,
+    valor: 1484,
     dataVencimento: "20-03-2024",
     dataPagamento: "20-03-2024",
     tipoDespesa: "fixa"
@@ -2978,7 +2978,7 @@ const despesas = [
   {
     id: 373,
     nome: "serviço de limpeza",
-    valor: 688,
+    valor: 1222,
     dataVencimento: "23-03-2024",
     dataPagamento: "23-03-2024",
     tipoDespesa: "fixa"
@@ -2986,7 +2986,7 @@ const despesas = [
   {
     id: 374,
     nome: "seguro patrimonial",
-    valor: 304,
+    valor: 549,
     dataVencimento: "26-03-2024",
     dataPagamento: "26-03-2024",
     tipoDespesa: "fixa"
@@ -2994,7 +2994,7 @@ const despesas = [
   {
     id: 375,
     nome: "licença de antivírus",
-    valor: 104,
+    valor: 2074,
     dataVencimento: "29-03-2024",
     dataPagamento: "29-03-2024",
     tipoDespesa: "fixa"
@@ -3002,7 +3002,7 @@ const despesas = [
   {
     id: 376,
     nome: "luz",
-    valor: 1049,
+    valor: 3407,
     dataVencimento: "05-04-2024",
     dataPagamento: "05-04-2024",
     tipoDespesa: "fixa"
@@ -3010,7 +3010,7 @@ const despesas = [
   {
     id: 377,
     nome: "água",
-    valor: 285,
+    valor: 599,
     dataVencimento: "08-04-2024",
     dataPagamento: "08-04-2024",
     tipoDespesa: "fixa"
@@ -3018,7 +3018,7 @@ const despesas = [
   {
     id: 378,
     nome: "internet",
-    valor: 281,
+    valor: 928,
     dataVencimento: "11-04-2024",
     dataPagamento: "11-04-2024",
     tipoDespesa: "fixa"
@@ -3026,7 +3026,7 @@ const despesas = [
   {
     id: 379,
     nome: "telefone",
-    valor: 135,
+    valor: 258,
     dataVencimento: "14-04-2024",
     dataPagamento: "14-04-2024",
     tipoDespesa: "fixa"
@@ -3034,7 +3034,7 @@ const despesas = [
   {
     id: 380,
     nome: "aluguel",
-    valor: 3882,
+    valor: 6405,
     dataVencimento: "17-04-2024",
     dataPagamento: "17-04-2024",
     tipoDespesa: "fixa"
@@ -3042,7 +3042,7 @@ const despesas = [
   {
     id: 381,
     nome: "condomínio",
-    valor: 746,
+    valor: 1470,
     dataVencimento: "20-04-2024",
     dataPagamento: "20-04-2024",
     tipoDespesa: "fixa"
@@ -3050,7 +3050,7 @@ const despesas = [
   {
     id: 382,
     nome: "serviço de limpeza",
-    valor: 647,
+    valor: 1229,
     dataVencimento: "23-04-2024",
     dataPagamento: "23-04-2024",
     tipoDespesa: "fixa"
@@ -3058,7 +3058,7 @@ const despesas = [
   {
     id: 383,
     nome: "seguro patrimonial",
-    valor: 295,
+    valor: 570,
     dataVencimento: "26-04-2024",
     dataPagamento: "26-04-2024",
     tipoDespesa: "fixa"
@@ -3066,7 +3066,7 @@ const despesas = [
   {
     id: 384,
     nome: "licença de antivírus",
-    valor: 110,
+    valor: 2007,
     dataVencimento: "29-04-2024",
     dataPagamento: "29-04-2024",
     tipoDespesa: "fixa"
@@ -3074,7 +3074,7 @@ const despesas = [
   {
     id: 385,
     nome: "compra de materiais escolares",
-    valor: 878,
+    valor: 954,
     dataVencimento: "15-04-2024",
     dataPagamento: "15-04-2024",
     tipoDespesa: "variável"
@@ -3082,7 +3082,7 @@ const despesas = [
   {
     id: 386,
     nome: "luz",
-    valor: 1074,
+    valor: 3286,
     dataVencimento: "05-05-2024",
     dataPagamento: "05-05-2024",
     tipoDespesa: "fixa"
@@ -3090,7 +3090,7 @@ const despesas = [
   {
     id: 387,
     nome: "água",
-    valor: 290,
+    valor: 594,
     dataVencimento: "08-05-2024",
     dataPagamento: "08-05-2024",
     tipoDespesa: "fixa"
@@ -3098,7 +3098,7 @@ const despesas = [
   {
     id: 388,
     nome: "internet",
-    valor: 309,
+    valor: 921,
     dataVencimento: "11-05-2024",
     dataPagamento: "11-05-2024",
     tipoDespesa: "fixa"
@@ -3106,7 +3106,7 @@ const despesas = [
   {
     id: 389,
     nome: "telefone",
-    valor: 143,
+    valor: 265,
     dataVencimento: "14-05-2024",
     dataPagamento: "14-05-2024",
     tipoDespesa: "fixa"
@@ -3114,7 +3114,7 @@ const despesas = [
   {
     id: 390,
     nome: "aluguel",
-    valor: 3622,
+    valor: 6371,
     dataVencimento: "17-05-2024",
     dataPagamento: "17-05-2024",
     tipoDespesa: "fixa"
@@ -3122,7 +3122,7 @@ const despesas = [
   {
     id: 391,
     nome: "condomínio",
-    valor: 716,
+    valor: 1484,
     dataVencimento: "20-05-2024",
     dataPagamento: "20-05-2024",
     tipoDespesa: "fixa"
@@ -3130,7 +3130,7 @@ const despesas = [
   {
     id: 392,
     nome: "serviço de limpeza",
-    valor: 684,
+    valor: 1228,
     dataVencimento: "23-05-2024",
     dataPagamento: "23-05-2024",
     tipoDespesa: "fixa"
@@ -3138,7 +3138,7 @@ const despesas = [
   {
     id: 393,
     nome: "seguro patrimonial",
-    valor: 336,
+    valor: 564,
     dataVencimento: "26-05-2024",
     dataPagamento: "26-05-2024",
     tipoDespesa: "fixa"
@@ -3146,7 +3146,7 @@ const despesas = [
   {
     id: 394,
     nome: "licença de antivírus",
-    valor: 101,
+    valor: 2017,
     dataVencimento: "29-05-2024",
     dataPagamento: "29-05-2024",
     tipoDespesa: "fixa"
@@ -3154,7 +3154,7 @@ const despesas = [
   {
     id: 395,
     nome: "luz",
-    valor: 1024,
+    valor: 3359,
     dataVencimento: "05-06-2024",
     dataPagamento: "05-06-2024",
     tipoDespesa: "fixa"
@@ -3162,7 +3162,7 @@ const despesas = [
   {
     id: 396,
     nome: "água",
-    valor: 337,
+    valor: 602,
     dataVencimento: "08-06-2024",
     dataPagamento: "08-06-2024",
     tipoDespesa: "fixa"
@@ -3170,7 +3170,7 @@ const despesas = [
   {
     id: 397,
     nome: "internet",
-    valor: 313,
+    valor: 924,
     dataVencimento: "11-06-2024",
     dataPagamento: "11-06-2024",
     tipoDespesa: "fixa"
@@ -3178,7 +3178,7 @@ const despesas = [
   {
     id: 398,
     nome: "telefone",
-    valor: 131,
+    valor: 255,
     dataVencimento: "14-06-2024",
     dataPagamento: "14-06-2024",
     tipoDespesa: "fixa"
@@ -3186,7 +3186,7 @@ const despesas = [
   {
     id: 399,
     nome: "aluguel",
-    valor: 3523,
+    valor: 6204,
     dataVencimento: "17-06-2024",
     dataPagamento: "17-06-2024",
     tipoDespesa: "fixa"
@@ -3194,7 +3194,7 @@ const despesas = [
   {
     id: 400,
     nome: "condomínio",
-    valor: 837,
+    valor: 1487,
     dataVencimento: "20-06-2024",
     dataPagamento: "20-06-2024",
     tipoDespesa: "fixa"
@@ -3202,7 +3202,7 @@ const despesas = [
   {
     id: 401,
     nome: "serviço de limpeza",
-    valor: 736,
+    valor: 1229,
     dataVencimento: "23-06-2024",
     dataPagamento: "23-06-2024",
     tipoDespesa: "fixa"
@@ -3210,7 +3210,7 @@ const despesas = [
   {
     id: 402,
     nome: "seguro patrimonial",
-    valor: 280,
+    valor: 552,
     dataVencimento: "26-06-2024",
     dataPagamento: "26-06-2024",
     tipoDespesa: "fixa"
@@ -3218,7 +3218,7 @@ const despesas = [
   {
     id: 403,
     nome: "licença de antivírus",
-    valor: 109,
+    valor: 2004,
     dataVencimento: "29-06-2024",
     dataPagamento: "29-06-2024",
     tipoDespesa: "fixa"
@@ -3226,7 +3226,7 @@ const despesas = [
   {
     id: 404,
     nome: "luz",
-    valor: 1148,
+    valor: 3395,
     dataVencimento: "05-07-2024",
     dataPagamento: "05-07-2024",
     tipoDespesa: "fixa"
@@ -3234,7 +3234,7 @@ const despesas = [
   {
     id: 405,
     nome: "água",
-    valor: 305,
+    valor: 580,
     dataVencimento: "08-07-2024",
     dataPagamento: "08-07-2024",
     tipoDespesa: "fixa"
@@ -3242,7 +3242,7 @@ const despesas = [
   {
     id: 406,
     nome: "internet",
-    valor: 267,
+    valor: 912,
     dataVencimento: "11-07-2024",
     dataPagamento: "11-07-2024",
     tipoDespesa: "fixa"
@@ -3250,7 +3250,7 @@ const despesas = [
   {
     id: 407,
     nome: "telefone",
-    valor: 158,
+    valor: 258,
     dataVencimento: "14-07-2024",
     dataPagamento: "14-07-2024",
     tipoDespesa: "fixa"
@@ -3258,7 +3258,7 @@ const despesas = [
   {
     id: 408,
     nome: "aluguel",
-    valor: 3113,
+    valor: 6285,
     dataVencimento: "17-07-2024",
     dataPagamento: "17-07-2024",
     tipoDespesa: "fixa"
@@ -3266,7 +3266,7 @@ const despesas = [
   {
     id: 409,
     nome: "condomínio",
-    valor: 688,
+    valor: 1508,
     dataVencimento: "20-07-2024",
     dataPagamento: "20-07-2024",
     tipoDespesa: "fixa"
@@ -3274,7 +3274,7 @@ const despesas = [
   {
     id: 410,
     nome: "serviço de limpeza",
-    valor: 636,
+    valor: 1180,
     dataVencimento: "23-07-2024",
     dataPagamento: "23-07-2024",
     tipoDespesa: "fixa"
@@ -3282,7 +3282,7 @@ const despesas = [
   {
     id: 411,
     nome: "seguro patrimonial",
-    valor: 308,
+    valor: 540,
     dataVencimento: "26-07-2024",
     dataPagamento: "26-07-2024",
     tipoDespesa: "fixa"
@@ -3290,7 +3290,7 @@ const despesas = [
   {
     id: 412,
     nome: "licença de antivírus",
-    valor: 101,
+    valor: 2097,
     dataVencimento: "29-07-2024",
     dataPagamento: "29-07-2024",
     tipoDespesa: "fixa"
@@ -3298,7 +3298,7 @@ const despesas = [
   {
     id: 413,
     nome: "compra de materiais escolares",
-    valor: 910,
+    valor: 924,
     dataVencimento: "15-07-2024",
     dataPagamento: "15-07-2024",
     tipoDespesa: "variável"
@@ -3306,7 +3306,7 @@ const despesas = [
   {
     id: 414,
     nome: "manutenção predial",
-    valor: 1269,
+    valor: 1846,
     dataVencimento: "20-07-2024",
     dataPagamento: "20-07-2024",
     tipoDespesa: "variável"
@@ -3314,7 +3314,7 @@ const despesas = [
   {
     id: 415,
     nome: "luz",
-    valor: 1101,
+    valor: 3304,
     dataVencimento: "05-08-2024",
     dataPagamento: "05-08-2024",
     tipoDespesa: "fixa"
@@ -3322,7 +3322,7 @@ const despesas = [
   {
     id: 416,
     nome: "água",
-    valor: 337,
+    valor: 589,
     dataVencimento: "08-08-2024",
     dataPagamento: "08-08-2024",
     tipoDespesa: "fixa"
@@ -3330,7 +3330,7 @@ const despesas = [
   {
     id: 417,
     nome: "internet",
-    valor: 276,
+    valor: 907,
     dataVencimento: "11-08-2024",
     dataPagamento: "11-08-2024",
     tipoDespesa: "fixa"
@@ -3338,7 +3338,7 @@ const despesas = [
   {
     id: 418,
     nome: "telefone",
-    valor: 122,
+    valor: 260,
     dataVencimento: "14-08-2024",
     dataPagamento: "14-08-2024",
     tipoDespesa: "fixa"
@@ -3346,7 +3346,7 @@ const despesas = [
   {
     id: 419,
     nome: "aluguel",
-    valor: 3355,
+    valor: 6133,
     dataVencimento: "17-08-2024",
     dataPagamento: "17-08-2024",
     tipoDespesa: "fixa"
@@ -3354,7 +3354,7 @@ const despesas = [
   {
     id: 420,
     nome: "condomínio",
-    valor: 734,
+    valor: 1497,
     dataVencimento: "20-08-2024",
     dataPagamento: "20-08-2024",
     tipoDespesa: "fixa"
@@ -3362,7 +3362,7 @@ const despesas = [
   {
     id: 421,
     nome: "serviço de limpeza",
-    valor: 554,
+    valor: 1190,
     dataVencimento: "23-08-2024",
     dataPagamento: "23-08-2024",
     tipoDespesa: "fixa"
@@ -3370,7 +3370,7 @@ const despesas = [
   {
     id: 422,
     nome: "seguro patrimonial",
-    valor: 330,
+    valor: 569,
     dataVencimento: "26-08-2024",
     dataPagamento: "26-08-2024",
     tipoDespesa: "fixa"
@@ -3378,7 +3378,7 @@ const despesas = [
   {
     id: 423,
     nome: "licença de antivírus",
-    valor: 96,
+    valor: 2101,
     dataVencimento: "29-08-2024",
     dataPagamento: "29-08-2024",
     tipoDespesa: "fixa"
@@ -3386,7 +3386,7 @@ const despesas = [
   {
     id: 424,
     nome: "luz",
-    valor: 1207,
+    valor: 3358,
     dataVencimento: "05-09-2024",
     dataPagamento: "05-09-2024",
     tipoDespesa: "fixa"
@@ -3394,7 +3394,7 @@ const despesas = [
   {
     id: 425,
     nome: "água",
-    valor: 309,
+    valor: 600,
     dataVencimento: "08-09-2024",
     dataPagamento: "08-09-2024",
     tipoDespesa: "fixa"
@@ -3402,7 +3402,7 @@ const despesas = [
   {
     id: 426,
     nome: "internet",
-    valor: 244,
+    valor: 926,
     dataVencimento: "11-09-2024",
     dataPagamento: "11-09-2024",
     tipoDespesa: "fixa"
@@ -3410,7 +3410,7 @@ const despesas = [
   {
     id: 427,
     nome: "telefone",
-    valor: 138,
+    valor: 252,
     dataVencimento: "14-09-2024",
     dataPagamento: "14-09-2024",
     tipoDespesa: "fixa"
@@ -3418,7 +3418,7 @@ const despesas = [
   {
     id: 428,
     nome: "aluguel",
-    valor: 3874,
+    valor: 6420,
     dataVencimento: "17-09-2024",
     dataPagamento: "17-09-2024",
     tipoDespesa: "fixa"
@@ -3426,7 +3426,7 @@ const despesas = [
   {
     id: 429,
     nome: "condomínio",
-    valor: 714,
+    valor: 1466,
     dataVencimento: "20-09-2024",
     dataPagamento: "20-09-2024",
     tipoDespesa: "fixa"
@@ -3434,7 +3434,7 @@ const despesas = [
   {
     id: 430,
     nome: "serviço de limpeza",
-    valor: 696,
+    valor: 1207,
     dataVencimento: "23-09-2024",
     dataPagamento: "23-09-2024",
     tipoDespesa: "fixa"
@@ -3442,7 +3442,7 @@ const despesas = [
   {
     id: 431,
     nome: "seguro patrimonial",
-    valor: 289,
+    valor: 546,
     dataVencimento: "26-09-2024",
     dataPagamento: "26-09-2024",
     tipoDespesa: "fixa"
@@ -3450,7 +3450,7 @@ const despesas = [
   {
     id: 432,
     nome: "licença de antivírus",
-    valor: 112,
+    valor: 2084,
     dataVencimento: "29-09-2024",
     dataPagamento: "29-09-2024",
     tipoDespesa: "fixa"
@@ -3458,7 +3458,7 @@ const despesas = [
   {
     id: 433,
     nome: "luz",
-    valor: 1092,
+    valor: 3358,
     dataVencimento: "05-10-2024",
     dataPagamento: "05-10-2024",
     tipoDespesa: "fixa"
@@ -3466,7 +3466,7 @@ const despesas = [
   {
     id: 434,
     nome: "água",
-    valor: 304,
+    valor: 600,
     dataVencimento: "08-10-2024",
     dataPagamento: "08-10-2024",
     tipoDespesa: "fixa"
@@ -3474,7 +3474,7 @@ const despesas = [
   {
     id: 435,
     nome: "internet",
-    valor: 252,
+    valor: 928,
     dataVencimento: "11-10-2024",
     dataPagamento: "11-10-2024",
     tipoDespesa: "fixa"
@@ -3482,7 +3482,7 @@ const despesas = [
   {
     id: 436,
     nome: "telefone",
-    valor: 153,
+    valor: 257,
     dataVencimento: "14-10-2024",
     dataPagamento: "14-10-2024",
     tipoDespesa: "fixa"
@@ -3490,7 +3490,7 @@ const despesas = [
   {
     id: 437,
     nome: "aluguel",
-    valor: 3669,
+    valor: 6443,
     dataVencimento: "17-10-2024",
     dataPagamento: "17-10-2024",
     tipoDespesa: "fixa"
@@ -3498,7 +3498,7 @@ const despesas = [
   {
     id: 438,
     nome: "condomínio",
-    valor: 739,
+    valor: 1472,
     dataVencimento: "20-10-2024",
     dataPagamento: "20-10-2024",
     tipoDespesa: "fixa"
@@ -3506,7 +3506,7 @@ const despesas = [
   {
     id: 439,
     nome: "serviço de limpeza",
-    valor: 672,
+    valor: 1229,
     dataVencimento: "23-10-2024",
     dataPagamento: "23-10-2024",
     tipoDespesa: "fixa"
@@ -3514,7 +3514,7 @@ const despesas = [
   {
     id: 440,
     nome: "seguro patrimonial",
-    valor: 307,
+    valor: 549,
     dataVencimento: "26-10-2024",
     dataPagamento: "26-10-2024",
     tipoDespesa: "fixa"
@@ -3522,7 +3522,7 @@ const despesas = [
   {
     id: 441,
     nome: "licença de antivírus",
-    valor: 107,
+    valor: 2029,
     dataVencimento: "29-10-2024",
     dataPagamento: "29-10-2024",
     tipoDespesa: "fixa"
@@ -3530,7 +3530,7 @@ const despesas = [
   {
     id: 442,
     nome: "compra de materiais escolares",
-    valor: 1106,
+    valor: 805,
     dataVencimento: "15-10-2024",
     dataPagamento: "15-10-2024",
     tipoDespesa: "variável"
@@ -3538,7 +3538,7 @@ const despesas = [
   {
     id: 443,
     nome: "luz",
-    valor: 1054,
+    valor: 3322,
     dataVencimento: "05-11-2024",
     dataPagamento: "05-11-2024",
     tipoDespesa: "fixa"
@@ -3546,7 +3546,7 @@ const despesas = [
   {
     id: 444,
     nome: "água",
-    valor: 285,
+    valor: 599,
     dataVencimento: "08-11-2024",
     dataPagamento: "08-11-2024",
     tipoDespesa: "fixa"
@@ -3554,7 +3554,7 @@ const despesas = [
   {
     id: 445,
     nome: "internet",
-    valor: 253,
+    valor: 944,
     dataVencimento: "11-11-2024",
     dataPagamento: "11-11-2024",
     tipoDespesa: "fixa"
@@ -3562,7 +3562,7 @@ const despesas = [
   {
     id: 446,
     nome: "telefone",
-    valor: 149,
+    valor: 256,
     dataVencimento: "14-11-2024",
     dataPagamento: "14-11-2024",
     tipoDespesa: "fixa"
@@ -3570,7 +3570,7 @@ const despesas = [
   {
     id: 447,
     nome: "aluguel",
-    valor: 3798,
+    valor: 6346,
     dataVencimento: "17-11-2024",
     dataPagamento: "17-11-2024",
     tipoDespesa: "fixa"
@@ -3578,7 +3578,7 @@ const despesas = [
   {
     id: 448,
     nome: "condomínio",
-    valor: 747,
+    valor: 1458,
     dataVencimento: "20-11-2024",
     dataPagamento: "20-11-2024",
     tipoDespesa: "fixa"
@@ -3586,7 +3586,7 @@ const despesas = [
   {
     id: 449,
     nome: "serviço de limpeza",
-    valor: 602,
+    valor: 1203,
     dataVencimento: "23-11-2024",
     dataPagamento: "23-11-2024",
     tipoDespesa: "fixa"
@@ -3594,7 +3594,7 @@ const despesas = [
   {
     id: 450,
     nome: "seguro patrimonial",
-    valor: 343,
+    valor: 549,
     dataVencimento: "26-11-2024",
     dataPagamento: "26-11-2024",
     tipoDespesa: "fixa"
@@ -3602,7 +3602,7 @@ const despesas = [
   {
     id: 451,
     nome: "licença de antivírus",
-    valor: 96,
+    valor: 2004,
     dataVencimento: "29-11-2024",
     dataPagamento: "29-11-2024",
     tipoDespesa: "fixa"
@@ -3610,7 +3610,7 @@ const despesas = [
   {
     id: 452,
     nome: "luz",
-    valor: 1227,
+    valor: 3387,
     dataVencimento: "05-12-2024",
     dataPagamento: "05-12-2024",
     tipoDespesa: "fixa"
@@ -3618,7 +3618,7 @@ const despesas = [
   {
     id: 453,
     nome: "água",
-    valor: 311,
+    valor: 593,
     dataVencimento: "08-12-2024",
     dataPagamento: "08-12-2024",
     tipoDespesa: "fixa"
@@ -3626,7 +3626,7 @@ const despesas = [
   {
     id: 454,
     nome: "internet",
-    valor: 319,
+    valor: 930,
     dataVencimento: "11-12-2024",
     dataPagamento: "11-12-2024",
     tipoDespesa: "fixa"
@@ -3634,7 +3634,7 @@ const despesas = [
   {
     id: 455,
     nome: "telefone",
-    valor: 122,
+    valor: 254,
     dataVencimento: "14-12-2024",
     dataPagamento: "14-12-2024",
     tipoDespesa: "fixa"
@@ -3642,7 +3642,7 @@ const despesas = [
   {
     id: 456,
     nome: "aluguel",
-    valor: 3898,
+    valor: 6166,
     dataVencimento: "17-12-2024",
     dataPagamento: "17-12-2024",
     tipoDespesa: "fixa"
@@ -3650,7 +3650,7 @@ const despesas = [
   {
     id: 457,
     nome: "condomínio",
-    valor: 795,
+    valor: 1443,
     dataVencimento: "20-12-2024",
     dataPagamento: "20-12-2024",
     tipoDespesa: "fixa"
@@ -3658,7 +3658,7 @@ const despesas = [
   {
     id: 458,
     nome: "serviço de limpeza",
-    valor: 591,
+    valor: 1220,
     dataVencimento: "23-12-2024",
     dataPagamento: "23-12-2024",
     tipoDespesa: "fixa"
@@ -3666,7 +3666,7 @@ const despesas = [
   {
     id: 459,
     nome: "seguro patrimonial",
-    valor: 307,
+    valor: 559,
     dataVencimento: "26-12-2024",
     dataPagamento: "26-12-2024",
     tipoDespesa: "fixa"
@@ -3674,7 +3674,7 @@ const despesas = [
   {
     id: 460,
     nome: "licença de antivírus",
-    valor: 99,
+    valor: 2099,
     dataVencimento: "29-12-2024",
     dataPagamento: "29-12-2024",
     tipoDespesa: "fixa"
@@ -3682,7 +3682,7 @@ const despesas = [
   {
     id: 461,
     nome: "luz",
-    valor: 1026,
+    valor: 3419,
     dataVencimento: "05-01-2025",
     dataPagamento: "05-01-2025",
     tipoDespesa: "fixa"
@@ -3690,7 +3690,7 @@ const despesas = [
   {
     id: 462,
     nome: "água",
-    valor: 303,
+    valor: 581,
     dataVencimento: "08-01-2025",
     dataPagamento: "08-01-2025",
     tipoDespesa: "fixa"
@@ -3698,7 +3698,7 @@ const despesas = [
   {
     id: 463,
     nome: "internet",
-    valor: 308,
+    valor: 916,
     dataVencimento: "11-01-2025",
     dataPagamento: "11-01-2025",
     tipoDespesa: "fixa"
@@ -3706,7 +3706,7 @@ const despesas = [
   {
     id: 464,
     nome: "telefone",
-    valor: 144,
+    valor: 252,
     dataVencimento: "14-01-2025",
     dataPagamento: "14-01-2025",
     tipoDespesa: "fixa"
@@ -3714,7 +3714,7 @@ const despesas = [
   {
     id: 465,
     nome: "aluguel",
-    valor: 3861,
+    valor: 6338,
     dataVencimento: "17-01-2025",
     dataPagamento: "17-01-2025",
     tipoDespesa: "fixa"
@@ -3722,7 +3722,7 @@ const despesas = [
   {
     id: 466,
     nome: "condomínio",
-    valor: 699,
+    valor: 1476,
     dataVencimento: "20-01-2025",
     dataPagamento: "20-01-2025",
     tipoDespesa: "fixa"
@@ -3730,7 +3730,7 @@ const despesas = [
   {
     id: 467,
     nome: "serviço de limpeza",
-    valor: 746,
+    valor: 1225,
     dataVencimento: "23-01-2025",
     dataPagamento: "23-01-2025",
     tipoDespesa: "fixa"
@@ -3738,7 +3738,7 @@ const despesas = [
   {
     id: 468,
     nome: "seguro patrimonial",
-    valor: 333,
+    valor: 554,
     dataVencimento: "26-01-2025",
     dataPagamento: "26-01-2025",
     tipoDespesa: "fixa"
@@ -3746,7 +3746,7 @@ const despesas = [
   {
     id: 469,
     nome: "licença de antivírus",
-    valor: 120,
+    valor: 2002,
     dataVencimento: "29-01-2025",
     dataPagamento: "29-01-2025",
     tipoDespesa: "fixa"
@@ -3754,7 +3754,7 @@ const despesas = [
   {
     id: 470,
     nome: "compra de materiais escolares",
-    valor: 1068,
+    valor: 1140,
     dataVencimento: "15-01-2025",
     dataPagamento: "15-01-2025",
     tipoDespesa: "variável"
@@ -3762,7 +3762,7 @@ const despesas = [
   {
     id: 471,
     nome: "manutenção predial",
-    valor: 1635,
+    valor: 1587,
     dataVencimento: "20-01-2025",
     dataPagamento: "20-01-2025",
     tipoDespesa: "variável"
@@ -3770,7 +3770,7 @@ const despesas = [
   {
     id: 472,
     nome: "compra de equipamentos",
-    valor: 2550,
+    valor: 2501,
     dataVencimento: "25-01-2025",
     dataPagamento: "25-01-2025",
     tipoDespesa: "variável"
@@ -3778,7 +3778,7 @@ const despesas = [
   {
     id: 473,
     nome: "luz",
-    valor: 1188,
+    valor: 3247,
     dataVencimento: "05-02-2025",
     dataPagamento: "05-02-2025",
     tipoDespesa: "fixa"
@@ -3786,7 +3786,7 @@ const despesas = [
   {
     id: 474,
     nome: "água",
-    valor: 347,
+    valor: 597,
     dataVencimento: "08-02-2025",
     dataPagamento: "08-02-2025",
     tipoDespesa: "fixa"
@@ -3794,7 +3794,7 @@ const despesas = [
   {
     id: 475,
     nome: "internet",
-    valor: 239,
+    valor: 920,
     dataVencimento: "11-02-2025",
     dataPagamento: "11-02-2025",
     tipoDespesa: "fixa"
@@ -3802,7 +3802,7 @@ const despesas = [
   {
     id: 476,
     nome: "telefone",
-    valor: 139,
+    valor: 254,
     dataVencimento: "14-02-2025",
     dataPagamento: "14-02-2025",
     tipoDespesa: "fixa"
@@ -3810,7 +3810,7 @@ const despesas = [
   {
     id: 477,
     nome: "aluguel",
-    valor: 3823,
+    valor: 6433,
     dataVencimento: "17-02-2025",
     dataPagamento: "17-02-2025",
     tipoDespesa: "fixa"
@@ -3818,7 +3818,7 @@ const despesas = [
   {
     id: 478,
     nome: "condomínio",
-    valor: 817,
+    valor: 1499,
     dataVencimento: "20-02-2025",
     dataPagamento: "20-02-2025",
     tipoDespesa: "fixa"
@@ -3826,7 +3826,7 @@ const despesas = [
   {
     id: 479,
     nome: "serviço de limpeza",
-    valor: 732,
+    valor: 1179,
     dataVencimento: "23-02-2025",
     dataPagamento: "23-02-2025",
     tipoDespesa: "fixa"
@@ -3834,7 +3834,7 @@ const despesas = [
   {
     id: 480,
     nome: "seguro patrimonial",
-    valor: 277,
+    valor: 567,
     dataVencimento: "26-02-2025",
     dataPagamento: "26-02-2025",
     tipoDespesa: "fixa"
@@ -3842,7 +3842,7 @@ const despesas = [
   {
     id: 481,
     nome: "licença de antivírus",
-    valor: 126,
+    valor: 2039,
     dataVencimento: "29-02-2025",
     dataPagamento: "29-02-2025",
     tipoDespesa: "fixa"
@@ -3850,7 +3850,7 @@ const despesas = [
   {
     id: 482,
     nome: "luz",
-    valor: 1043,
+    valor: 3343,
     dataVencimento: "05-03-2025",
     dataPagamento: "05-03-2025",
     tipoDespesa: "fixa"
@@ -3858,7 +3858,7 @@ const despesas = [
   {
     id: 483,
     nome: "água",
-    valor: 336,
+    valor: 604,
     dataVencimento: "08-03-2025",
     dataPagamento: "08-03-2025",
     tipoDespesa: "fixa"
@@ -3866,7 +3866,7 @@ const despesas = [
   {
     id: 484,
     nome: "internet",
-    valor: 274,
+    valor: 929,
     dataVencimento: "11-03-2025",
     dataPagamento: "11-03-2025",
     tipoDespesa: "fixa"
@@ -3874,7 +3874,7 @@ const despesas = [
   {
     id: 485,
     nome: "telefone",
-    valor: 155,
+    valor: 257,
     dataVencimento: "14-03-2025",
     dataPagamento: "14-03-2025",
     tipoDespesa: "fixa"
@@ -3882,7 +3882,7 @@ const despesas = [
   {
     id: 486,
     nome: "aluguel",
-    valor: 3814,
+    valor: 6356,
     dataVencimento: "17-03-2025",
     dataPagamento: "17-03-2025",
     tipoDespesa: "fixa"
@@ -3890,7 +3890,7 @@ const despesas = [
   {
     id: 487,
     nome: "condomínio",
-    valor: 842,
+    valor: 1489,
     dataVencimento: "20-03-2025",
     dataPagamento: "20-03-2025",
     tipoDespesa: "fixa"
@@ -3898,7 +3898,7 @@ const despesas = [
   {
     id: 488,
     nome: "serviço de limpeza",
-    valor: 675,
+    valor: 1190,
     dataVencimento: "23-03-2025",
     dataPagamento: "23-03-2025",
     tipoDespesa: "fixa"
@@ -3906,7 +3906,7 @@ const despesas = [
   {
     id: 489,
     nome: "seguro patrimonial",
-    valor: 342,
+    valor: 555,
     dataVencimento: "26-03-2025",
     dataPagamento: "26-03-2025",
     tipoDespesa: "fixa"
@@ -3914,7 +3914,7 @@ const despesas = [
   {
     id: 490,
     nome: "licença de antivírus",
-    valor: 111,
+    valor: 2100,
     dataVencimento: "29-03-2025",
     dataPagamento: "29-03-2025",
     tipoDespesa: "fixa"
@@ -3922,7 +3922,7 @@ const despesas = [
   {
     id: 491,
     nome: "luz",
-    valor: 1144,
+    valor: 3351,
     dataVencimento: "05-04-2025",
     dataPagamento: "05-04-2025",
     tipoDespesa: "fixa"
@@ -3930,7 +3930,7 @@ const despesas = [
   {
     id: 492,
     nome: "água",
-    valor: 293,
+    valor: 604,
     dataVencimento: "08-04-2025",
     dataPagamento: "08-04-2025",
     tipoDespesa: "fixa"
@@ -3938,7 +3938,7 @@ const despesas = [
   {
     id: 493,
     nome: "internet",
-    valor: 247,
+    valor: 904,
     dataVencimento: "11-04-2025",
     dataPagamento: "11-04-2025",
     tipoDespesa: "fixa"
@@ -3946,7 +3946,7 @@ const despesas = [
   {
     id: 494,
     nome: "telefone",
-    valor: 127,
+    valor: 264,
     dataVencimento: "14-04-2025",
     dataPagamento: "14-04-2025",
     tipoDespesa: "fixa"
@@ -3954,7 +3954,7 @@ const despesas = [
   {
     id: 495,
     nome: "aluguel",
-    valor: 3842,
+    valor: 6380,
     dataVencimento: "17-04-2025",
     dataPagamento: "17-04-2025",
     tipoDespesa: "fixa"
@@ -3962,7 +3962,7 @@ const despesas = [
   {
     id: 496,
     nome: "condomínio",
-    valor: 799,
+    valor: 1479,
     dataVencimento: "20-04-2025",
     dataPagamento: "20-04-2025",
     tipoDespesa: "fixa"
@@ -3970,7 +3970,7 @@ const despesas = [
   {
     id: 497,
     nome: "serviço de limpeza",
-    valor: 724,
+    valor: 1204,
     dataVencimento: "23-04-2025",
     dataPagamento: "23-04-2025",
     tipoDespesa: "fixa"
@@ -3978,7 +3978,7 @@ const despesas = [
   {
     id: 498,
     nome: "seguro patrimonial",
-    valor: 293,
+    valor: 560,
     dataVencimento: "26-04-2025",
     dataPagamento: "26-04-2025",
     tipoDespesa: "fixa"
@@ -3986,7 +3986,7 @@ const despesas = [
   {
     id: 499,
     nome: "licença de antivírus",
-    valor: 101,
+    valor: 2013,
     dataVencimento: "29-04-2025",
     dataPagamento: "29-04-2025",
     tipoDespesa: "fixa"
@@ -3994,7 +3994,7 @@ const despesas = [
   {
     id: 500,
     nome: "compra de materiais escolares",
-    valor: 1034,
+    valor: 1022,
     dataVencimento: "15-04-2025",
     dataPagamento: "15-04-2025",
     tipoDespesa: "variável"
@@ -4002,7 +4002,7 @@ const despesas = [
   {
     id: 501,
     nome: "luz",
-    valor: 1293,
+    valor: 3349,
     dataVencimento: "05-05-2025",
     dataPagamento: "05-05-2025",
     tipoDespesa: "fixa"
@@ -4010,7 +4010,7 @@ const despesas = [
   {
     id: 502,
     nome: "água",
-    valor: 340,
+    valor: 605,
     dataVencimento: "08-05-2025",
     dataPagamento: "08-05-2025",
     tipoDespesa: "fixa"
@@ -4018,7 +4018,7 @@ const despesas = [
   {
     id: 503,
     nome: "internet",
-    valor: 306,
+    valor: 926,
     dataVencimento: "11-05-2025",
     dataPagamento: "11-05-2025",
     tipoDespesa: "fixa"
@@ -4026,7 +4026,7 @@ const despesas = [
   {
     id: 504,
     nome: "telefone",
-    valor: 122,
+    valor: 262,
     dataVencimento: "14-05-2025",
     dataPagamento: "14-05-2025",
     tipoDespesa: "fixa"
@@ -4034,7 +4034,7 @@ const despesas = [
   {
     id: 505,
     nome: "aluguel",
-    valor: 3287,
+    valor: 6131,
     dataVencimento: "17-05-2025",
     dataPagamento: "17-05-2025",
     tipoDespesa: "fixa"
@@ -4042,7 +4042,7 @@ const despesas = [
   {
     id: 506,
     nome: "condomínio",
-    valor: 823,
+    valor: 1512,
     dataVencimento: "20-05-2025",
     dataPagamento: "20-05-2025",
     tipoDespesa: "fixa"
@@ -4050,7 +4050,7 @@ const despesas = [
   {
     id: 507,
     nome: "serviço de limpeza",
-    valor: 568,
+    valor: 1233,
     dataVencimento: "23-05-2025",
     dataPagamento: "23-05-2025",
     tipoDespesa: "fixa"
@@ -4058,7 +4058,7 @@ const despesas = [
   {
     id: 508,
     nome: "seguro patrimonial",
-    valor: 315,
+    valor: 563,
     dataVencimento: "26-05-2025",
     dataPagamento: "26-05-2025",
     tipoDespesa: "fixa"
@@ -4066,7 +4066,7 @@ const despesas = [
   {
     id: 509,
     nome: "licença de antivírus",
-    valor: 117,
+    valor: 2108,
     dataVencimento: "29-05-2025",
     dataPagamento: "29-05-2025",
     tipoDespesa: "fixa"
@@ -4074,7 +4074,7 @@ const despesas = [
   {
     id: 510,
     nome: "luz",
-    valor: 1134,
+    valor: 3241,
     dataVencimento: "05-06-2025",
     dataPagamento: "05-06-2025",
     tipoDespesa: "fixa"
@@ -4082,7 +4082,7 @@ const despesas = [
   {
     id: 511,
     nome: "água",
-    valor: 282,
+    valor: 578,
     dataVencimento: "08-06-2025",
     dataPagamento: "08-06-2025",
     tipoDespesa: "fixa"
@@ -4090,7 +4090,7 @@ const despesas = [
   {
     id: 512,
     nome: "internet",
-    valor: 314,
+    valor: 940,
     dataVencimento: "11-06-2025",
     dataPagamento: "11-06-2025",
     tipoDespesa: "fixa"
@@ -4098,7 +4098,7 @@ const despesas = [
   {
     id: 513,
     nome: "telefone",
-    valor: 136,
+    valor: 257,
     dataVencimento: "14-06-2025",
     dataPagamento: "14-06-2025",
     tipoDespesa: "fixa"
@@ -4106,7 +4106,7 @@ const despesas = [
   {
     id: 514,
     nome: "aluguel",
-    valor: 3707,
+    valor: 6299,
     dataVencimento: "17-06-2025",
     dataPagamento: "17-06-2025",
     tipoDespesa: "fixa"
@@ -4114,7 +4114,7 @@ const despesas = [
   {
     id: 515,
     nome: "condomínio",
-    valor: 846,
+    valor: 1462,
     dataVencimento: "20-06-2025",
     dataPagamento: "20-06-2025",
     tipoDespesa: "fixa"
@@ -4122,7 +4122,7 @@ const despesas = [
   {
     id: 516,
     nome: "serviço de limpeza",
-    valor: 699,
+    valor: 1232,
     dataVencimento: "23-06-2025",
     dataPagamento: "23-06-2025",
     tipoDespesa: "fixa"
@@ -4130,7 +4130,7 @@ const despesas = [
   {
     id: 517,
     nome: "seguro patrimonial",
-    valor: 315,
+    valor: 555,
     dataVencimento: "26-06-2025",
     dataPagamento: "26-06-2025",
     tipoDespesa: "fixa"
@@ -4138,7 +4138,7 @@ const despesas = [
   {
     id: 518,
     nome: "licença de antivírus",
-    valor: 101,
+    valor: 2047,
     dataVencimento: "29-06-2025",
     dataPagamento: "29-06-2025",
     tipoDespesa: "fixa"
@@ -4146,7 +4146,7 @@ const despesas = [
   {
     id: 519,
     nome: "luz",
-    valor: 1077,
+    valor: 3367,
     dataVencimento: "05-07-2025",
     dataPagamento: "05-07-2025",
     tipoDespesa: "fixa"
@@ -4154,7 +4154,7 @@ const despesas = [
   {
     id: 520,
     nome: "água",
-    valor: 294,
+    valor: 586,
     dataVencimento: "08-07-2025",
     dataPagamento: "08-07-2025",
     tipoDespesa: "fixa"
@@ -4162,7 +4162,7 @@ const despesas = [
   {
     id: 521,
     nome: "internet",
-    valor: 290,
+    valor: 916,
     dataVencimento: "11-07-2025",
     dataPagamento: "11-07-2025",
     tipoDespesa: "fixa"
@@ -4170,7 +4170,7 @@ const despesas = [
   {
     id: 522,
     nome: "telefone",
-    valor: 130,
+    valor: 261,
     dataVencimento: "14-07-2025",
     dataPagamento: "14-07-2025",
     tipoDespesa: "fixa"
@@ -4178,7 +4178,7 @@ const despesas = [
   {
     id: 523,
     nome: "aluguel",
-    valor: 3198,
+    valor: 6296,
     dataVencimento: "17-07-2025",
     dataPagamento: "17-07-2025",
     tipoDespesa: "fixa"
@@ -4186,7 +4186,7 @@ const despesas = [
   {
     id: 524,
     nome: "condomínio",
-    valor: 736,
+    valor: 1442,
     dataVencimento: "20-07-2025",
     dataPagamento: "20-07-2025",
     tipoDespesa: "fixa"
@@ -4194,7 +4194,7 @@ const despesas = [
   {
     id: 525,
     nome: "serviço de limpeza",
-    valor: 675,
+    valor: 1185,
     dataVencimento: "23-07-2025",
     dataPagamento: "23-07-2025",
     tipoDespesa: "fixa"
@@ -4202,7 +4202,7 @@ const despesas = [
   {
     id: 526,
     nome: "seguro patrimonial",
-    valor: 255,
+    valor: 544,
     dataVencimento: "26-07-2025",
     dataPagamento: "26-07-2025",
     tipoDespesa: "fixa"
@@ -4210,7 +4210,7 @@ const despesas = [
   {
     id: 527,
     nome: "licença de antivírus",
-    valor: 104,
+    valor: 2033,
     dataVencimento: "29-07-2025",
     dataPagamento: "29-07-2025",
     tipoDespesa: "fixa"
@@ -4218,7 +4218,7 @@ const despesas = [
   {
     id: 528,
     nome: "compra de materiais escolares",
-    valor: 987,
+    valor: 1092,
     dataVencimento: "15-07-2025",
     dataPagamento: "15-07-2025",
     tipoDespesa: "variável"
@@ -4226,7 +4226,7 @@ const despesas = [
   {
     id: 529,
     nome: "manutenção predial",
-    valor: 1458,
+    valor: 1988,
     dataVencimento: "20-07-2025",
     dataPagamento: "20-07-2025",
     tipoDespesa: "variável"
