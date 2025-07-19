@@ -50,24 +50,44 @@ function formatarData(d) {
 let vendas = [];
 let id = 1;
 const anoAtual = 2025;
+const vendasPorCursoPorMes = 3; // ajuste para a quantidade desejada
+const hoje = new Date();
+console.log(hoje)
+const anoHoje = hoje.getFullYear();
+const mesHoje = hoje.getMonth() + 1; // Janeiro = 0
+const diaHoje = hoje.getDate();
+
 for (let ano = anoAtual - 5 + 1; ano <= anoAtual; ano++) {
-    for (let i = 0; i < cursos.length; i++) {
-        const mes = String((i % 12) + 1).padStart(2, "0");
-        const dia = String((i % 28) + 1).padStart(2, "0");
-        const dataVendaISO = `${ano}-${mes}-${dia}`;
-        const dataPagamentoISO = `${ano}-${mes}-${String(Number(dia) + 1).padStart(2, "0")}`;
-        vendas.push({
-            id: id++,
-            aluno: nomes[i % nomes.length],
-            curso: cursos[i],
-            valor: 800 + Math.floor(Math.random() * 2500),
-            formaPagamento: formasPagamento[i % formasPagamento.length],
-            parcelas: 1 + Math.floor(Math.random() * 6),
-            cpf: cpfs[i % cpfs.length],
-            endereco: enderecos[i % enderecos.length],
-            dataVenda: formatarData(dataVendaISO),
-            dataPagamento: formatarData(dataPagamentoISO)
-        });
+    for (let mesNum = 1; mesNum <= 12; mesNum++) {
+        for (let i = 0; i < cursos.length; i++) {
+            for (let v = 0; v < vendasPorCursoPorMes; v++) {
+                const mes = String(mesNum).padStart(2, "0");
+                const diaNum = ((i * vendasPorCursoPorMes + v) % 28) + 1;
+                const dia = String(diaNum).padStart(2, "0");
+                // Não gera vendas futuras
+                if (
+                    ano > anoHoje ||
+                    (ano === anoHoje && mesNum > mesHoje) ||
+                    (ano === anoHoje && mesNum === mesHoje && diaNum > diaHoje)
+                ) {
+                    continue;
+                }
+                const dataVendaISO = `${ano}-${mes}-${dia}`;
+                const dataPagamentoISO = `${ano}-${mes}-${String(Number(dia) + 1).padStart(2, "0")}`;
+                vendas.push({
+                    id: id++,
+                    aluno: nomes[(i + v) % nomes.length],
+                    curso: cursos[i],
+                    valor: 500 + Math.floor(Math.random() * 500),
+                    formaPagamento: formasPagamento[(i + v) % formasPagamento.length],
+                    parcelas: 1 + Math.floor(Math.random() * 6),
+                    cpf: cpfs[(i + v) % cpfs.length],
+                    endereco: enderecos[(i + v) % enderecos.length],
+                    dataVenda: formatarData(dataVendaISO),
+                    dataPagamento: formatarData(dataPagamentoISO)
+                });
+            }
+        }
     }
 }
 

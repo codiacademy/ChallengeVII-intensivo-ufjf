@@ -16,19 +16,19 @@ function formatarData(dia, mes, ano) {
 }
 
 const despesasFixas = [
-    { nome: "luz", base: 1200 },
+    { nome: "luz", base: 1800 },
     { nome: "água", base: 320 },
-    { nome: "internet", base: 280 },
+    { nome: "internet", base: 500 },
     { nome: "telefone", base: 140 },
     { nome: "aluguel", base: 3400 },
     { nome: "condomínio", base: 800 },
     { nome: "serviço de limpeza", base: 650 },
     { nome: "seguro patrimonial", base: 300 },
-    { nome: "licença de antivírus", base: 110 }
+    { nome: "licença de antivírus", base: 1110 }
 ];
 
 const despesasVariaveis = [
-    { nome: "compra de materiais escolares", base: 1000, tipo: "variável" },
+    { nome: "compra de materiais escolares", base: 10000, tipo: "variável" },
     { nome: "manutenção predial", base: 1500, tipo: "variável" },
     { nome: "compra de equipamentos", base: 3500, tipo: "variável" }
 ];
@@ -53,7 +53,7 @@ for (let ano = anoAtual - 5 + 1; ano <= anoAtual; ano++) {
             despesas.push({
                 id: id++,
                 nome: fixa.nome,
-                valor: Math.round(fixa.base * (0.85 + Math.random() * 0.3)),
+                valor: Math.round(fixa.base * (1.8 + Math.random() * 0.1)),
                 dataVencimento: formatarData(dia, mes, ano),
                 dataPagamento: formatarData(dia, mes, ano),
                 tipoDespesa: "fixa"
