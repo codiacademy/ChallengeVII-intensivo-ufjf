@@ -2,7 +2,9 @@
 import { useState } from 'react';
 
 export default function Table({ columns = [], data = [] }) {
-  const [filtro, setFiltro] = useState('');
+const [pagina, setPagina] = useState(1);
+const [filtro, setFiltro] = useState('');
+const linhasPorPagina = 50;
 
 const dadosFiltrados = (data || []).filter((item) =>
   columns.some((col) => {
@@ -11,9 +13,15 @@ const dadosFiltrados = (data || []).filter((item) =>
   })
 );
 
+const totalPaginas = Math.ceil(dadosFiltrados.length / linhasPorPagina);
+const dadosPaginados = dadosFiltrados.slice(
+  (pagina - 1) * linhasPorPagina,
+  pagina * linhasPorPagina
+);
+
 
   return (
-    <div className="min-w-10 p-5 rounded-[15px] bg-[var(--colors-background)]">
+    <div className="min-w-10 p-5 line-clamp-2 rounded-[15px] bg-[var(--colors-background)]">
       <input
         type="text"
         placeholder="Filtrar por qualquer campo..."
@@ -24,21 +32,16 @@ const dadosFiltrados = (data || []).filter((item) =>
         shadow-[6px_7px_10px_#a3b1c6,-5px_-7px_10px_#ffffff] rounded-[15px]"
       />
       <table className="table-fixed w-full text-left text-[#4d4d4d] border-collapse border-spacing-y-2">
-        <thead className="h-[50px] bg-[var(--colors-background)] shadow-[6px_7px_10px_#a3b1c6,-5px_-7px_10px_#ffffff] sticky top-0 z-10 border-collapse">
+       
+        <thead className="rounded-full h-[50px] bg-[var(--colors-background)] shadow-[6px_7px_10px_#a3b1c6,-5px_-7px_10px_#ffffff] sticky top-0 z-10 border-collapse">
           <tr>
             {columns.map((col, index) => {
-              const isFirst = index === 0;
-              const isLast = index === columns.length - 1;
-              const roundedClass = isFirst
-                ? "rounded-tl-full"
-                : isLast
-                ? "rounded-tr-full"
-                : "";
+
 
               return (
                 <th
                   key={col.accessor}
-                  className={`text-center border-collapse ${roundedClass} px-2 py-3`}
+                  className={`truncate text-clip text-center border-collapse  px-2 py-3`}
                 >
                   {col.header}
                 </th>
@@ -47,13 +50,13 @@ const dadosFiltrados = (data || []).filter((item) =>
           </tr>
         </thead>
         <tbody>
-          {dadosFiltrados.map((item) => (
+          {dadosPaginados.map((item) => (
             <tr
               key={item.id}
               className="h-8 hover:shadow-[10px_10px_20px_#a3b1c6,-10px_-10px_20px_#ffffff] rounded-[15px] cursor-default"
             >
               {columns.map((col) => (
-                <td key={col.accessor} className="text-center px-2 py-2">
+                <td key={col.accessor} className="truncate text-clip text-center px-2 py-2">
                   {item[col.accessor]}
                 </td>
               ))}
@@ -61,6 +64,25 @@ const dadosFiltrados = (data || []).filter((item) =>
           ))}
         </tbody>
       </table>
+      <div className="flex justify-center items-center gap-2 mt-4">
+        <button
+          onClick={() => setPagina((p) => Math.max(1, p - 1))}
+          disabled={pagina === 1}
+          className="px-3 py-1 rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+        >
+          {"<"}
+        </button>
+        <span>
+           {pagina} de {totalPaginas}
+        </span>
+        <button
+          onClick={() => setPagina((p) => Math.min(totalPaginas, p + 1))}
+          disabled={pagina === totalPaginas}
+          className="px-3 py-1 rounded bg-gray-200 hover:bg-gray-300 disabled:opacity-50"
+        >
+          {">"}
+        </button>
+      </div>
     </div>
   );
 }

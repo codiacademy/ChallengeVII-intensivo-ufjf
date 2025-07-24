@@ -19,8 +19,7 @@ export default function UserMenu({ onUserMenuClick }) {
     }, [])
 
     return (
-        <div className="flex w-8 h-8 mr-5 bg-black rounded-full" ref={menuRef}>
-            {/* Botão do menu */}
+        <div className="flex items-center" ref={menuRef}>
             <button
                 onClick={() => {
                     setOpen(!open)
@@ -28,6 +27,15 @@ export default function UserMenu({ onUserMenuClick }) {
                 }}
                 className="flex items-center gap-2 px-4 py-2 rounded-lg transition"
             >
+                <div className="relative w-10 h-10 ml-5 bg-white rounded-full overflow-hidden">
+                    <Image
+                        src="/CODIQuadradoRoxo.png"
+                        alt="Foto de perfil"
+                        fill
+                        sizes="40px"
+                        className="object-cover"
+                    />
+                </div>
 
 
             </button>
@@ -36,13 +44,15 @@ export default function UserMenu({ onUserMenuClick }) {
             {open && (
                 <div className="absolute right-0 top-10 mt-2 w-64 bg-[var(--cinza)] rounded-lg shadow-lg p-4 z-50 transition-all">
                     <div className="flex flex-col items-center text-center gap-2">
-                        <Image
-                            src="/codigo.png"
-                            alt="Foto de perfil"
-                            width={64}
-                            height={64}
-                            className="rounded-full bg-white"
-                        />
+                        <div className="relative w-10 h-10 ml-5 bg-white rounded-full overflow-hidden">
+                            <Image
+                                src="/CODIQuadradoRoxo.png"
+                                alt="Foto de perfil"
+                                fill
+                                sizes="40px"
+                                className="object-cover"
+                            />
+                        </div>
                         <p className="text-lg font-semibold">Marcus Sarmento</p>
                         <p className="text-sm text-gray-500">Desenvolvedor Frontend</p>
                         <button

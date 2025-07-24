@@ -1,55 +1,66 @@
 'use client';
-import vendas from "@/data/vendasUFJF"
+
+import vendas from "@/data/vendasUFJF";
 import despesas from "@/data/despesasUFJF";
 import { useEffect, useState } from 'react';
+import { usePeriodo } from "@/components/PeriodoContext";
 
+function parseDataBR(dataStr) {
+  const [dia, mes, ano] = dataStr.split("-");
+  return new Date(`${ano}-${mes}-${dia}`);
+}
 
-function extrairAnoMes(dataBR) {
-  // dataBR: "02-01-2025"
-  const [dia, mes, ano] = dataBR.split('-').map(Number);
-  return { ano, mes, dia };
+function getPeriodoRange(periodo) {
+  const hoje = new Date();
+  let inicio, fim;
+  if (periodo === "4semanas") {
+    inicio = new Date();
+    inicio.setDate(hoje.getDate() - 28);
+    fim = hoje;
+  } else if (periodo === "7dias") {
+    inicio = new Date();
+    inicio.setDate(hoje.getDate() - 7);
+    fim = hoje;
+  } else if (periodo === "12meses") {
+    inicio = new Date();
+    inicio.setMonth(hoje.getMonth() - 11, 1);
+    inicio.setHours(0, 0, 0, 0);
+    fim = new Date();
+    fim.setMonth(hoje.getMonth() + 1, 1);
+    fim.setHours(0, 0, 0, 0);
+  } else if (periodo === "5anos") {
+    inicio = new Date();
+    inicio.setFullYear(hoje.getFullYear() - 5);
+    fim = hoje;
+  } else {
+    inicio = new Date(0);
+    fim = hoje;
+  }
+  return { inicio, fim };
 }
 
 export default function KPIs() {
-  const [receitaTotal, setReceitaTotal] = useState(0);
-  const [despesasTotais, setDespesasTotais] = useState(0);
+  const { periodo } = usePeriodo();
+
+  const { inicio, fim } = getPeriodoRange(periodo);
+
+  const receitaTotal = vendas.reduce((acc, venda) => {
+    const data = parseDataBR(venda.dataPagamento);
+    if (data >= inicio && data < fim) {
+      return acc + Number(venda.valor);
+    }
+    return acc;
+  }, 0);
+
+  const despesasTotais = despesas.reduce((acc, despesa) => {
+    const data = parseDataBR(despesa.dataPagamento);
+    if (data >= inicio && data < fim) {
+      return acc + Number(despesa.valor);
+    }
+    return acc;
+  }, 0);
 
   const balanco = receitaTotal - despesasTotais;
-
-
-  useEffect(() => {
-    const hoje = new Date();
-    const mesAtual = hoje.getMonth() + 1; // Janeiro é 0
-    const anoAtual = hoje.getFullYear();
-
-
-    const totalReceita = vendas.reduce((acc, venda) => {
-      const { ano, mes } = extrairAnoMes(venda.dataPagamento);
-      if (mes === mesAtual && ano === anoAtual) {
-        return acc + Number(venda.valor);
-      }
-      return acc;
-    }, 0);
-
-
-    setReceitaTotal(totalReceita);
-
-  }, []);
-  useEffect(() => {
-    const hoje = new Date();
-    const mesAtual = hoje.getMonth() + 1; // Janeiro é 0
-    const anoAtual = hoje.getFullYear();
-
-
-    const totalDespesas = despesas.reduce((acc, despesa) => {
-      const { ano, mes } = extrairAnoMes(despesa.dataPagamento);
-      if (mes === mesAtual && ano === anoAtual) {
-        return acc + Number(despesa.valor);
-      }
-      return acc;
-    }, 0);
-    setDespesasTotais(totalDespesas);
-  }, []);
 
   return (
     <div className="w-full text-[#4d4d4d]">

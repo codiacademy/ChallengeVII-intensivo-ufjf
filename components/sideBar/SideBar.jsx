@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function SideBar() {
+export default function SideBar({ onLinkClick }) {
   const pathname = usePathname();
 
 
@@ -16,22 +16,22 @@ export default function SideBar() {
     return `${base} ${isActive ? shadowActive : shadowDefault} ${!isActive ? shadowHover : ""}`;
   };
 
-  return (
+return (
     <aside className="w-64 bg-[var(--colors-background)] p-4 pt-8">
       <nav className="space-y-4">
         <ul className="gap-5 flex flex-col">
           <li>
-            <Link href="/dashboard" className={getButtonClasses("/dashboard")}>
+            <Link href="/dashboard" className={getButtonClasses("/dashboard")} onClick={onLinkClick}>
               Dashboard
             </Link>
           </li>
           <li>
-            <Link href="/vendas" className={getButtonClasses("/vendas")}>
+            <Link href="/vendas" className={getButtonClasses("/vendas")} onClick={onLinkClick}>
               Vendas
             </Link>
           </li>
           <li>
-            <Link href="/despesas" className={getButtonClasses("/despesas")}>
+            <Link href="/despesas" className={getButtonClasses("/despesas")} onClick={onLinkClick}>
               Despesas
             </Link>
           </li>
